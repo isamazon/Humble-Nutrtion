@@ -1,0 +1,114 @@
+/*SCSS variables*/
+/*COLORS*/
+/*  Transition durations  */
+body {
+  background-color: black;
+}
+
+/*                  NAV BAR                   */
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin: 0px 50px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #1ee41e;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar .navbar-toggler {
+  color: black;
+  background: white;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: black;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link {
+  color: white;
+  padding: 0px 50px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover {
+  color: #1ee41e;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+/*                  CAROUSEL                      */
+.carousel-row {
+  background-color: none;
+  height: 100%;
+}
+
+.carousel-row .carousel-item .carousel-caption {
+  color: white;
+  text-shadow: 0px 0px 15px black;
+}
+
+.second-container {
+  height: 100%;
+  background: black;
+}
+
+.second-container .second-row {
+  height: 50vh;
+  background-color: white;
+}
+
+.second-container .second-row .second-row-col-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: blue;
+}
+
+.second-container .second-row .second-row-col-1 .about-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.second-container .second-row .second-row-col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: red;
+}
+
+.second-container .second-row .second-row-col-2 .about-info-box {
+  padding: 0px 30px;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
