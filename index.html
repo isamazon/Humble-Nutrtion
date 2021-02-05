@@ -1,88 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/css/pictures/HMicon/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Humble nutrition</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg sticky-top  navbar-bg">
-        <div class="container-fluid custom-navbar-container">
-          <a class="navbar-brand" href="index.html">Humble Nutrition</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-bg">
+      <div class="container-fluid custom-navbar-container">
+        <a class="navbar-brand" href="index.html">Humble Nutrition</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Menu</a>
+            <a
+              class="nav-link"
+              href="https://l.instagram.com/?u=https%3A%2F%2Fashbarranca.goherbalife.com%2Fen-us&e=ATMFpfYmb3Wast5nlRoBUbSMdSLNWza8KPyYQhnztBFCpLAhmWSWs9X9Q6XNHSA6VjzrJlGqkJWXB0zvFzJFtA&s=1"
+              >Herbalife</a
+            >
+            <a
+              class="nav-link"
+              href="https://ashbarranca.goherbalife.com/Account/ContactUS/Index/en-US"
+              >Contact Me</a
+            >
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Carousel container-->
+    <div
+      id="myCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel "
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#myCarousel"
+          data-bs-ride="#myCarousel"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#myCarousel"
+          data-bs-ride="#myCarousel"
+          data-slide-to="1"
+        ></li>
+        <li
+          data-bs-target="#myCarousel"
+          data-bs-ride="#myCarousel"
+          data-slide-to="2"
+        ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="overlay-image"
+            style="background-image: url(./css/pictures/HMpics/teagradient2.jpg)"
+          ></div>
+          <div class="container">
+            <h1>Herbal teas</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, accusantium totam aspernatur quo fugit at autem ipsam
+              vero perspiciatis omnis, iusto assumenda odio? Alias, id
+              voluptate! Incidunt repellat odit itaque! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Quos, deserunt sit excepturi
+              consequuntur nostrum cupiditate non accusamus nobis sint harum
+              repudiandae exercitationem. Adipisci veritatis aliquam veniam
+              officiis, eaque quod repellendus.
+            </p>
+            <a href="" class="btn btn-lg btn-primary">Order</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="overlay-image"
+            style="background-image: url(./css/pictures/HMpics/donutgradient1.jpg)"
+          ></div>
+          <div class="container">
+            <h1>Protein donuts</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, accusantium totam aspernatur quo fugit at autem ipsam
+              vero perspiciatis omnis, iusto assumenda odio? Alias, id
+              voluptate! Incidunt repellat odit itaque! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Quos, deserunt sit excepturi
+              consequuntur nostrum cupiditate non accusamus nobis sint harum
+              repudiandae exercitationem. Adipisci veritatis aliquam veniam
+              officiis, eaque quod repellendus.
+            </p>
+            <a href="" class="btn btn-lg btn-primary"></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="overlay-image"
+            style="background-image: url(./css/pictures/HMpics/shakegradient2.jpg)"
+          ></div>
+          <div class="container">
+            <h1>Protein shakes</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, accusantium totam aspernatur quo fugit at autem ipsam
+              vero perspiciatis omnis, iusto assumenda odio? Alias, id
+              voluptate! Incidunt repellat odit itaque! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Quos, deserunt sit excepturi
+              consequuntur nostrum cupiditate non accusamus nobis sint harum
+              repudiandae exercitationem. Adipisci veritatis aliquam veniam
+              officiis, eaque quod repellendus.
+            </p>
+            <a href="" class="btn btn-lg btn-primary"></a>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#myCarousel"
+        class="carousel-control-prev"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="sr-only"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a
+        href="#myCarousel"
+        class="carousel-control-next"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="sr-only"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="container second-container my-5">
+      <div class="row second-row my-5" >
+        <div class="col-lg-4 col-md-12    second-row-col-2" data-aos='zoom-in-up'
+        >
+          <div class="hours-section">
+            <div class="hours-img"></div>
+          </div>
+          <div class="hours-info">
+            <h1 class="hours-h1">Hours</h1>
+            <p class="hours-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              eos? Nam sapiente qui culpa voluptates eos! Aliquam blanditiis
+              quia adipisci reiciendis laboriosam at nisi, esse labore. At
+              obcaecati deleniti dicta!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 second-row-col-1 " data-aos='zoom-in-up'
+        >
+          <div class="about-me-section">
+            <div class="about-me-img"></div>
+          </div>
+          <div class="about-me-info">
+            <h1 class="about-me-h1">About me</h1>
+            <p class="about-me-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              eos? Nam sapiente qui culpa voluptates eos! Aliquam blanditiis
+              quia adipisci reiciendis laboriosam at nisi, esse labore. At
+              obcaecati deleniti dicta!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12    second-row-col-3" data-aos='zoom-in-up'
+        >
+          <div class="menu-section">
+            <div class="menu-img"></div>
+          </div>
+          <div class="menu-info">
+            <h1 class="menu-h1">Menu</h1>
+            <p class="menu-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              eos? Nam sapiente qui culpa voluptates eos! Aliquam blanditiis
+              quia adipisci reiciendis laboriosam at nisi, esse labore. At
+              obcaecati deleniti dicta!
+            </p>
+            <div class="button-container">
+            <a href=""><button type="button" class="btn btn-success menu-button">Menu</button></a>
             </div>
           </div>
         </div>
-      </nav>
-    <!--Carousel container-->
- 
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/css/pictures/herbalifeBG1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Title 1</h5>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/css/pictures/bg2.jpg" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/css/pictures/bg3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
-
-    <div class="container second-container">
-        <div class="row second-row py-5">
-            <div class="col-lg-3 col-md-12 second-row-col-1">
-                <img src="/css/pictures/ashley1.PNG" alt="" class="about-image">
-            </div>
-            <div class="col-lg-8 col-md-12 second-row-col-2">
-                <div class="about-info-box">
-                    <h1 class="about-info-h1">Title</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quas quis quasi quia nostrum consequuntur, adipisci dolor laudantium sit error temporibus cum cumque. Tempora dolor libero in minima unde veniam!</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+    <hr class="feauturette-divider" />
+    <div class="container my-5 third-container">
+      <div class="row third-row">
+        <!--Google maps column-->
+        <div class="col-lg-12 col-md-12 third-row-col-1" data-aos="fade-up">
+          <div class="location-info-box">
+            <h1 class="location-info-h1">Find us!</h1>
+            <p class="location-info-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+              earum ut voluptates quaerat? Deleniti sequi optio assumenda atque
+              officia, perferendis fugiat repellendus ea doloribus natus,
+              nesciunt officiis similique facere molestiae?Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Iure obcaecati libero
+              repellendus dicta ducimus nemo voluptatibus repellat, similique
+              quam debitis voluptatem? Ipsam fugiat porro rerum sint, assumenda
+              error reprehenderit. Natus!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-12 py-5 google-maps-container">
+          <div class="mapouter" data-aos="fade-up">
+            <div class="gmap_canvas">
+              <iframe
+                class="iframe"
+                width="900"
+                height="300"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2002%20Central%20Ave%20SW,%20Albuquerque,%20NM%2087104&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://123movies-to.org"></a><br /><style>
+                .mapouter {
+                  box-shadow: 0px 5px 10px black;
+                  z-index: 0;
+                  position: relative;
+                  text-align: right;
+                  height: 300px;
+                  width: 900px;
+                }</style
+              ><a href="https://www.embedgooglemap.net"
+                >how to add map in website</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 300px;
+                  width: 900px;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

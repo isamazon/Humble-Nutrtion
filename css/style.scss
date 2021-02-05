@@ -3,8 +3,10 @@
 $greencolor1: rgb(30, 228, 30);
 /*  Transition durations  */
 $transitionGreen1: 0.5s;
+/*  SHADOWS   */
+$boxshadow1: 1px 0px 0px black;
 body {
-    background-color: black;
+    background-color: none;
 }
 /*                  NAV BAR                   */
 .navbar {
@@ -45,51 +47,232 @@ body {
 
 }
 /*                  CAROUSEL                      */
-
-
-    .carousel-row {
-        background-color: none;
-        height: 100%;
-
-        .carousel-item {
-            .carousel-caption {
-                color: white;
-                text-shadow: 0px 0px 15px rgb(0, 0, 0);
-            }
+.carousel-item {
+    height: 95vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    
+    .overlay-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
     }
+    .container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.404);
+        .carousel-h1 {
+            text-shadow: 0px 0px 5px black;
+        }
     }
+    
+}
 
-
+/*          Second container          */
 .second-container {
+    position: relative;
     height: 100%;
     background: black;
 
     .second-row {
+        height: 100%;
+        background-color: white;
+      /*            ABOUT ME ROW                */  
+      .second-row-col-1 {
+          display: flex;
+          box-shadow: $boxshadow1;
+          flex-direction: column;
+          justify-content: center;
+          flex-wrap: wrap;
+          background-color: NONE;
+          padding: 10px 0px;
+          .about-me-section {
+              display: flex;
+              justify-content: center;
+            .about-me-img {
+                height: 200px;
+                width: 200px;
+                border: 1px solid black;
+                border-radius: 50%;
+                background-image: url(./pictures/ashley1.PNG);
+                background-position: center;
+                background-size: cover;
+            }
+          }
+          .about-me-info {
+              display: flex;
+              justify-content: center;
+              padding: 30px 10px;
+              flex-direction: column;
+              background-color: NONE;
+              .about-me-h1 {
+                  text-align: center;
+                  letter-spacing: 5px;
+              }
+              .about-me-p {
+                  text-align: center;
+              }
+          }
+      }
+      /*            HOURS ROW           */
+      .second-row-col-2 {
+        display: flex;
+        box-shadow: $boxshadow1;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: none;
+        padding: 10px 0px;
+        .hours-section {
+            display: flex;
+            justify-content: center;
+          .hours-img {
+              height: 200px;
+              width: 200px;
+              border-radius: 50%;
+              background-image: url(./pictures/clock.png);
+              background-position: center;
+              background-size: cover;
+          }
+        }
+        .hours-info {
+            display: flex;
+            justify-content: center;
+            padding: 30px 10px;
+            flex-direction: column;
+            background-color: none;
+            .hours-h1 {
+                text-align: center;
+                letter-spacing: 5px;
+            }
+            .hours-p {
+                text-align: center;
+            }
+        }
+    }
+    /*          MENU ROW              */
+    .second-row-col-3 {
+        display: flex;
+        box-shadow: $boxshadow1;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: none;
+        padding: 10px 0px;
+        .menu-section {
+            display: flex;
+            justify-content: center;
+          .menu-img {
+              height: 200px;
+              width: 200px;
+              border-radius: 50%;
+              background-image: url(./pictures/coffee1.PNG);
+              background-position: center;
+              background-size: cover;
+          }
+        }
+        .menu-info {
+            display: flex;
+            justify-content: center;
+            padding: 30px 10px;
+            flex-direction: column;
+            background-color: none;
+            .menu-h1 {
+                text-align: center;
+                letter-spacing: 5px;
+            }
+            .menu-p {
+                text-align: center;
+            }
+            .button-container {
+                display: flex;
+                background-color: none;
+                justify-content: center;
+                .menu-button {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }    
+    }
+}
+.feauturette-divider {
+    height: 10px;
+    margin: 5rem 0;
+}
+/*              THIRD CONTAINER           */
+.third-container {
+    position: relative;
+    height: 100%;
+    background-color: black;
+
+    .third-row {
+        z-index: 1;
+        
         height: 50vh;
         background-color: white;
 
-        .second-row-col-1 {
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            background-color: blue;
-            .about-image {
+        .third-row-col-1 {
+            background-color: none;
+            
+            .location-info-box {
                 display: flex;
-                height: 200px;
-                width: 200px;
-                border: 2px solid black;
-                border-radius: 50%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: none;
+                .location-info-h1 {
+                    letter-spacing: 5px;
+                    text-align: center;
+                }
+                .location-info-p {
+                    text-align: center;
+                    line-height: 30px;
+                }
             }
         }
-        .second-row-col-2 {
+        .google-maps-container {
             display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            background-color: red;
-            .about-info-box {
-                padding: 0px 30px;
-                background-color: green;
+            justify-content: center;
+            .iframe {
+                width: 900px;
             }
         }
     }
 }
+/*          FOURTH CONTAINER            */
+
+
+/*          SCROLL BAR            */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $greencolor1;
+  }
