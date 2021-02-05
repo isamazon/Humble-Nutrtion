@@ -1,0 +1,14 @@
+/*SCSS variables*/
+/*COLORS*/
+/*  Transition durations  */
+/*  SHADOWS   */
+/*          FIRST CONTAINER           */
+.menu-outside-container {
+  background-color: black;
+  height: 100vh;
+}
+
+.menu-outside-container .menu-container {
+  background-color: white;
+}
+/*# sourceMappingURL=menu.css.map */

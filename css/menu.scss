@@ -1,0 +1,17 @@
+/*SCSS variables*/
+/*COLORS*/
+$greencolor1: rgb(30, 228, 30);
+/*  Transition durations  */
+$transitionGreen1: 0.5s;
+/*  SHADOWS   */
+$boxshadow1: 1px 0px 0px black;
+
+/*          FIRST CONTAINER           */
+.menu-outside-container {
+    background-color: black;
+    height: 100vh;
+
+    .menu-container {
+        background-color: white;
+    }
+}

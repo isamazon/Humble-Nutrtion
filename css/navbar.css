@@ -1,0 +1,58 @@
+/*SCSS variables*/
+/*COLORS*/
+/*  Transition durations  */
+/*  SHADOWS   */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #1ee41e;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar .navbar-toggler {
+  color: black;
+  background: white;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: black;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+  position: absolute;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link {
+  color: white;
+  padding: 0px 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  border-radius: 10px;
+  color: #1ee41e;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+/*# sourceMappingURL=navbar.css.map */

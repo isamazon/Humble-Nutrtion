@@ -4,46 +4,9 @@ $greencolor1: rgb(30, 228, 30);
 /*  Transition durations  */
 $transitionGreen1: 0.5s;
 /*  SHADOWS   */
-$boxshadow1: 1px 0px 0px black;
+$boxshadow1: 0px 0px 0px black;
 body {
     background-color: none;
-}
-/*                  NAV BAR                   */
-.navbar {
-    background-color: rgb(0, 0, 0);
-    .navbar-brand {
-        color: white;
-        letter-spacing: 5px;
-        font-weight: 300;
-        margin: 0px 50px;
-        &:hover {
-            color: $greencolor1;
-            transition-duration: $transitionGreen1;
-        }
-    }
-    .navbar-toggler {
-        color: black;
-        background: white;
-        
-        .navbar-toggler-icon {
-            color: black;
-
-        }
-
-    }
-    .navbar-collapse {
-        .navbar-nav {
-            justify-content: center;
-            .nav-link {
-                color: white;
-                padding: 0px 50px;
-                &:hover {
-                    color: $greencolor1;
-                    transition-duration: $transitionGreen1;
-                }
-            }
-        }
-    }
 
 }
 /*                  CAROUSEL                      */
@@ -150,15 +113,22 @@ body {
         .hours-info {
             display: flex;
             justify-content: center;
-            padding: 30px 10px;
+            padding: 10px 10px;
             flex-direction: column;
             background-color: none;
             .hours-h1 {
+                padding-top: 5px;
                 text-align: center;
                 letter-spacing: 5px;
             }
             .hours-p {
                 text-align: center;
+                .curbside-span {
+                    letter-spacing: 0px;
+                }
+                .hours-days-span {
+                    letter-spacing: 0px;
+                }
             }
         }
     }
@@ -209,9 +179,50 @@ body {
     }    
     }
 }
-.feauturette-divider {
-    height: 10px;
-    margin: 5rem 0;
+hr.feauturette-divider {
+    height: 2px;
+    margin: 100px 0px;
+    color: black;
+}
+/*THIRS CONTAINER/STAFF PICTURE CONTAINER */
+.local-owned-container {
+    height: 100%;
+    background-color: black;
+    .local-owned-staff-row {
+        height: 60vh;
+        background-color: rgb(0, 0, 0);
+        .local-owned-col {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            background-image: url(./pictures/staffpicpng.png);
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            .local-owned-info-box {
+                display: flex;
+                justify-content: center;
+                padding: 20px 10px;
+                flex-direction: column;
+                border-radius: 20px;
+                position: absolute;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.411);
+                width: 50%;
+                .locally-owned-h1 {
+                    letter-spacing: 5px;
+                    color: white;
+                }
+                .locally-owned-p {
+                    color: white;
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
 }
 /*              THIRD CONTAINER           */
 .third-container {
@@ -253,7 +264,129 @@ body {
         }
     }
 }
-/*          FOURTH CONTAINER            */
+
+/*          FOOTER CONTAINER            */
+    .main-footer-container {
+        position: relative;
+        background-color: black;
+        .footer-container {
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+            margin-top: 200px;
+            height: 100%;
+            background-color: black;
+            .info-row-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: 100%;
+
+                .company-col {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: flex-start;
+                    height: 200px;
+                    padding: 10px 20px;
+                    
+                    
+                    .company-info-box {
+                        background-color: none;
+                        .footer-headers {
+                            letter-spacing: 2px;
+                            color: white;
+                            text-align: center;
+                        }
+                        .company-info-p {
+                            color: white;
+                            text-align: start;
+                        }
+                    }
+                }
+                .products-col {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: flex-start;
+                    height: 200px;
+                    padding: 10px 20px;
+                    
+                    
+                    .products-info-box {
+                        background-color: none;
+                        .footer-headers {
+                            letter-spacing: 2px;
+                            color: white;
+                            text-align: center;
+                            }
+                        .product-links {
+                            color: white;
+                            }
+                    }
+                }
+                .useful-links-col {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    height: 200px;
+                    background-color: none;
+                    
+                    .useful-links-box {
+                        background-color: none;
+                        .footer-headers {
+                            letter-spacing: 2px;
+                            color: white;
+                            text-align: center;
+                        }
+                        .use-links {
+                            color: white;
+                        }
+                    }
+                }
+                .contact-info-col {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    justify-content: center;
+                    height: 200px;
+                    padding: 10px 20px;
+                    
+                    
+                    .contact-info-box {
+                        background-color: none;
+                        .footer-headers {
+                            color: white;
+                            text-align: center;
+                        }
+                        .contact-links {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+        }
+    }    
+    .main-copyright-container {
+        background-color: black;
+        .copyright-container {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            .copyright-p {
+                color: white;
+                .copyright-span1 {
+                    color: green;
+                }
+            }
+
+        }
+    }
+
 
 
 /*          SCROLL BAR            */
