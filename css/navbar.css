@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 /*SCSS variables*/
+/*          FONTS             */
 /*COLORS*/
 /*  Transition durations  */
 /*  SHADOWS   */
@@ -13,6 +15,7 @@
   color: white;
   letter-spacing: 5px;
   font-weight: 300;
+  font-family: "Dancing Script", cursive;
   margin-left: 50px;
   margin-right: 10px;
 }

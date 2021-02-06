@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /*SCSS variables*/
+/*          FONTS             */
+$dancingfont: 'Dancing Script', cursive;
 /*COLORS*/
 $greencolor1: rgb(30, 228, 30);
 /*  Transition durations  */
@@ -12,6 +15,7 @@ $boxshadow1: 1px 0px 0px black;
         color: white; 
         letter-spacing: 5px;
         font-weight: 300;
+        font-family: $dancingfont;
         margin-left: 50px;
         margin-right: 10px;
         &:hover {

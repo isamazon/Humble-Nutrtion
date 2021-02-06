@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /*SCSS variables*/
-/*COLORS*/
+/*          FONTS             */
+$dancingfont: 'Dancing Script', cursive;
+/*          COLORS            */
 $greencolor1: rgb(30, 228, 30);
 /*  Transition durations  */
 $transitionGreen1: 0.5s;
@@ -8,10 +11,103 @@ $boxshadow1: 1px 0px 0px black;
 
 /*          FIRST CONTAINER           */
 .menu-outside-container {
-    background-color: black;
-    height: 100vh;
+    background-color: rgb(40, 194, 214);
+    height: 100%;
+    padding: 50px 0px;
 
     .menu-container {
+        height: 100%;
+        width: 980px;
+        border-radius: 50px;
         background-color: white;
+        box-shadow: 1px  0px 10px black;
+
+        .menu-title-box {
+            display: flex;
+            flex-direction: row;
+            .menu-col-1 {
+                
+                background-color: none;
+                .menu-title-info-box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: none;
+                    h3 {
+                        font-weight: 500;
+                    }
+                    h1 {
+                        margin: -10px 0px;
+                        font-family: $dancingfont;
+                        letter-spacing: 20px;
+                    }
+                    p {
+                        padding: 5px;
+                        letter-spacing: 5px ;
+                    }
+                    a {
+                        text-decoration: none;
+                        color:  black;
+                        transition: transform 1s;
+                        &:hover {
+                            
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+            }
+        }
+        .menu-col-2 {
+            background-color: none;
+            .unsweet-teas-box {
+                display: flex;
+                flex-direction: column;
+                h1 {
+                    text-align: center;
+                }
+                li {
+                    font-size: 20px;
+                    letter-spacing: 5px;
+                    text-align: center;
+                }
+            }
+        }
+        .menu-col-3 {
+            background-color: none;
+            .sweet-teas-box {
+                h1 {
+                    color: black;
+                    text-align: center;
+                }
+                li {
+                    text-align: center;
+                }
+            }
+        }
+        .menu-col-4 {
+            background-color: none;
+            .sweet-teas-box {
+                h1 {
+                    color: black;
+                    text-align: center;
+                }
+                li {
+                    text-align: center;
+                }
+            }
+        }
+        .menu-col-5 {
+            background-color: none;
+            .sweet-teas-box {
+                h1 {
+                    color: black;
+                    text-align: center;
+                }
+                li {
+                    text-align: center;
+                }
+            }
+        }
     }
 }

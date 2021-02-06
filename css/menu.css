@@ -1,14 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 /*SCSS variables*/
-/*COLORS*/
+/*          FONTS             */
+/*          COLORS            */
 /*  Transition durations  */
 /*  SHADOWS   */
 /*          FIRST CONTAINER           */
 .menu-outside-container {
-  background-color: black;
-  height: 100vh;
+  background-color: #28c2d6;
+  height: 100%;
+  padding: 50px 0px;
 }
 
 .menu-outside-container .menu-container {
+  height: 100%;
+  width: 980px;
+  border-radius: 50px;
   background-color: white;
+  -webkit-box-shadow: 1px  0px 10px black;
+          box-shadow: 1px  0px 10px black;
+}
+
+.menu-outside-container .menu-container .menu-title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 {
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box h3 {
+  font-weight: 500;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box h1 {
+  margin: -10px 0px;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 20px;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box p {
+  padding: 5px;
+  letter-spacing: 5px;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.menu-outside-container .menu-container .menu-col-2 {
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box h1 {
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box li {
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-3 {
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-col-3 .sweet-teas-box h1 {
+  color: black;
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-3 .sweet-teas-box li {
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-4 {
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-col-4 .sweet-teas-box h1 {
+  color: black;
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-4 .sweet-teas-box li {
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-5 {
+  background-color: none;
+}
+
+.menu-outside-container .menu-container .menu-col-5 .sweet-teas-box h1 {
+  color: black;
+  text-align: center;
+}
+
+.menu-outside-container .menu-container .menu-col-5 .sweet-teas-box li {
+  text-align: center;
 }
 /*# sourceMappingURL=menu.css.map */
