@@ -81,6 +81,7 @@ $boxshadow1: 1px 0px 0px black;
                     flex-direction: row;
                     justify-content: center;
                     padding: 0px 10px;
+                    cursor: pointer;
                 }
                 .smoothie-svg {
                     height: 50px;
@@ -183,6 +184,13 @@ $boxshadow1: 1px 0px 0px black;
             .smoothie-svg {
                 height: 50px;
             }
+            h1 {
+                color: black;
+                cursor: pointer;
+                &:hover {
+                    color: $greencolor1;
+                }
+            }
         }
         .smoothie-list-1 {
             display: flex;
@@ -203,6 +211,37 @@ $boxshadow1: 1px 0px 0px black;
             }
         }
     }
+}
+
+.modal-1-bg {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.432);
+    backdrop-filter: blur(12px);
+    .modal-1-container {
+        position: fixed;
+        height: 500px;
+        width: 70%;
+        background-color: white;
+        border-radius: 20px;
+        .close-modal-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
 }
 
 /*          SCROLL BAR            */

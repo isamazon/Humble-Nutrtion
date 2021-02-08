@@ -124,6 +124,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0px 10px;
+  cursor: pointer;
 }
 
 .menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box .smoothie-svg {
@@ -298,6 +299,15 @@
   height: 50px;
 }
 
+.menu-outside-container .smoothie-row .smoothie-header-col h1 {
+  color: black;
+  cursor: pointer;
+}
+
+.menu-outside-container .smoothie-row .smoothie-header-col h1:hover {
+  color: #1ee41e;
+}
+
 .menu-outside-container .smoothie-row .smoothie-list-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,6 +342,53 @@
 
 .menu-outside-container .smoothie-row .smoothie-list-2 .smoothie-list-items-2 {
   list-style-type: none;
+}
+
+.modal-1-bg {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+}
+
+.modal-1-bg .modal-1-container {
+  position: fixed;
+  height: 500px;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.modal-1-bg .modal-1-container .close-modal-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-1-bg .modal-1-container .carousel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /*          SCROLL BAR            */
