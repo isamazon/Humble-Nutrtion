@@ -127,6 +127,10 @@
   cursor: pointer;
 }
 
+.menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box .unsweet-teas-box-header:hover {
+  color: #1ee41e;
+}
+
 .menu-outside-container .menu-container .menu-col-2 .unsweet-teas-box .smoothie-svg {
   height: 50px;
 }
@@ -139,6 +143,7 @@
   font-size: 20px;
   letter-spacing: 5px;
   text-align: center;
+  list-style-type: none;
 }
 
 .menu-outside-container .menu-container .menu-col-3 {
@@ -176,10 +181,16 @@
 .menu-outside-container .menu-container .menu-col-3 .sweet-teas-box h1 {
   color: black;
   text-align: center;
+  cursor: pointer;
+}
+
+.menu-outside-container .menu-container .menu-col-3 .sweet-teas-box h1:hover {
+  color: #1ee41e;
 }
 
 .menu-outside-container .menu-container .menu-col-3 .sweet-teas-box li {
   text-align: center;
+  list-style-type: none;
 }
 
 .menu-outside-container .menu-container .menu-col-4 {
@@ -220,6 +231,11 @@
 .menu-outside-container .menu-container .menu-col-4 .sweet-teas-box h1 {
   color: black;
   text-align: center;
+  cursor: pointer;
+}
+
+.menu-outside-container .menu-container .menu-col-4 .sweet-teas-box h1:hover {
+  color: #1ee41e;
 }
 
 .menu-outside-container .menu-container .menu-col-4 .sweet-teas-box li {
@@ -346,9 +362,7 @@
 
 .modal-1-bg {
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -372,10 +386,17 @@
   border-radius: 20px;
 }
 
-.modal-1-bg .modal-1-container .close-modal-btn {
+.modal-1-bg .modal-1-container .close-modal-button {
   position: absolute;
+  height: 10px;
+  width: 10px;
   top: 0;
   left: 0;
+  cursor: pointer;
+}
+
+.modal-1-bg .modal-1-container .close-modal-button:hover {
+  color: red;
 }
 
 .modal-1-bg .modal-1-container .carousel-container {
