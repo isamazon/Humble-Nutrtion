@@ -52,7 +52,6 @@
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-link:hover {
-  text-decoration: underline;
   border-radius: 10px;
   color: #1ee41e;
   -webkit-transition-duration: 0.5s;

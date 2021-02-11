@@ -12,9 +12,12 @@ const modal = document.querySelector('.modal-1-bg')
 const closeModal = document.querySelector('.close-modal-button');
 
 closeModal.addEventListener('click', () => {
-    modal.style.display = 'none'
+    modal.style.display = 'none';
 })
 // open Smootie modal
 openModalbtns.smoothies.addEventListener('click', () => {
-    modal.style.display = 'flex' 
+    modal.style.display = 'flex';
 })
+
+
+// Now im going to add the new

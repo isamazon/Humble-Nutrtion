@@ -29,6 +29,19 @@ body {
   opacity: 1;
 }
 
+.carousel-item .overlay-image-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
 .carousel-item .container {
   position: absolute;
   bottom: 10px;
@@ -47,12 +60,11 @@ body {
 .second-container {
   position: relative;
   height: 100%;
-  background: black;
 }
 
 .second-container .second-row {
   height: 100%;
-  background-color: white;
+  background: none;
   /*            ABOUT ME ROW                */
   /*            HOURS ROW           */
   /*          MENU ROW              */
@@ -319,6 +331,12 @@ hr.feauturette-divider {
   width: 50%;
 }
 
+@media screen and (max-width: 930px) {
+  .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box {
+    width: 100%;
+  }
+}
+
 .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box .locally-owned-h1 {
   letter-spacing: 5px;
   color: white;
@@ -327,6 +345,13 @@ hr.feauturette-divider {
 .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box .locally-owned-p {
   color: white;
   font-size: 20px;
+}
+
+@media screen and (max-width: 930px) {
+  .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box .locally-owned-p {
+    height: 80px;
+    overflow-y: scroll;
+  }
 }
 
 /*              THIRD CONTAINER           */
@@ -389,6 +414,7 @@ hr.feauturette-divider {
 /*          FOOTER CONTAINER            */
 .main-footer-container {
   position: relative;
+  margin: 400px 0px 0px 0px;
   background-color: black;
 }
 

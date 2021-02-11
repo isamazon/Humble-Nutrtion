@@ -32,6 +32,18 @@ body {
         background-size: cover;
         opacity: 1;
     }
+    .overlay-image-1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+    }
     .container {
         position: absolute;
         bottom: 10px;
@@ -51,11 +63,11 @@ body {
 .second-container {
     position: relative;
     height: 100%;
-    background: black;
 
     .second-row {
         height: 100%;
-        background-color: white;
+        background: none;
+        
       /*            ABOUT ME ROW                */  
       .second-row-col-1 {
           display: flex;
@@ -215,6 +227,9 @@ hr.feauturette-divider {
                 left: 0;
                 background-color: rgba(0, 0, 0, 0.411);
                 width: 50%;
+                @media screen and (max-width: 930px) {
+                    width: 100%;
+                }
                 .locally-owned-h1 {
                     letter-spacing: 5px;
                     color: white;
@@ -222,6 +237,10 @@ hr.feauturette-divider {
                 .locally-owned-p {
                     color: white;
                     font-size: 20px;
+                    @media screen and (max-width: 930px) {
+                    height: 80px;
+                    overflow-y: scroll;
+                    }
                 }
 
             }
@@ -272,10 +291,10 @@ hr.feauturette-divider {
 /*          FOOTER CONTAINER            */
     .main-footer-container {
         position: relative;
-        background-color: black;
+        margin: 400px 0px 0px 0px;
+        background-color: rgb(0, 0, 0);
         .footer-container {
             display: flex;
-            
             align-items: center;
             justify-content: center;
             margin-top: 200px;

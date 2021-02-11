@@ -49,7 +49,10 @@
 }
 
 .menu-outside-container .menu-container .menu-title-box .menu-col-1 {
-  background-color: none;
+  background-repeat: no-repeat;
+  background-position: 50px 0px;
+  top: 0;
+  left: 50%;
 }
 
 .menu-outside-container .menu-container .menu-title-box .menu-col-1 .menu-title-info-box {
@@ -280,6 +283,12 @@
 .menu-outside-container .menu-container .menu-col-5 .sweet-teas-box h1 {
   color: black;
   text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.menu-outside-container .menu-container .menu-col-5 .sweet-teas-box h1:hover {
+  color: #1ee41e;
 }
 
 .menu-outside-container .menu-container .menu-col-5 .sweet-teas-box li {
@@ -372,15 +381,15 @@
   width: 100%;
   height: 100vh;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.432);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
 }
 
 .modal-1-bg .modal-1-container {
-  position: fixed;
-  height: 500px;
+  position: absolute;
+  height: 60%;
   width: 70%;
   background-color: white;
   border-radius: 20px;
@@ -388,10 +397,11 @@
 
 .modal-1-bg .modal-1-container .close-modal-button {
   position: absolute;
-  height: 10px;
-  width: 10px;
-  top: 0;
+  height: 20px;
+  width: 0px;
+  top: -30px;
   left: 0;
+  color: white;
   cursor: pointer;
 }
 
@@ -403,13 +413,97 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: none;
+}
+
+.modal-1-bg .modal-1-container .carousel-container .carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+}
+
+.modal-1-bg .modal-1-container .carousel-container .carousel-item h1 {
+  background-color: none;
+  color: black;
+  text-align: center;
+}
+
+.modal-1-bg .modal-1-container .carousel-container .carousel-item .carousel-img {
+  height: 100px;
+  margin: 90px 0px;
+}
+
+.modal-1-bg .modal-1-container .carousel-container .carousel-item .paragraph-section {
+  background-color: rgba(0, 0, 0, 0.205);
+  height: 20%;
+  overflow-y: scroll;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container h1 {
+  padding-top: 20px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container .custom-dropdown-menu {
+  width: 100%;
+  background-color: none;
+  margin-bottom: 50px;
+  outline: none;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container .custom-dropdown-menu .dropdown-toggle-split {
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container .custom-dropdown-menu .dropdown-menu {
+  height: 100px;
+  overflow-y: scroll;
+  width: 100%;
+  background-color: white;
+}
+
+.modal-1-bg .modal-1-container .nutritional-facts-container p {
+  color: white;
+  margin: 50px 30px 0px 3     0px;
+  border-radius: 20px;
+  padding: 10px 10px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.342);
 }
 
 /*          SCROLL BAR            */
