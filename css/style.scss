@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+$themeFont: 'Shadows Into Light', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap');
+$themeFont2: 'Architects Daughter', cursive;
 
 /*SCSS variables*/
 /*          FONTS             */
@@ -66,7 +70,10 @@ body {
 .second-container {
     position: relative;
     height: 100%;
-
+    z-index: 10;
+    @media screen and (max-width: 1000px) {
+        top: 20%;
+    }
     .second-row {
         height: 100%;
         background: none;
@@ -192,13 +199,14 @@ body {
                 .menu-button {
                     color: white;
                     cursor: pointer;
-                }
+                    }
             }
         }
     }    
     }
 }
 hr.feauturette-divider {
+    position: relative;
     height: 0.5px;
     margin: 100px 0px;
     color: black;
