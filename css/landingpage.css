@@ -100,23 +100,44 @@
 .landing-page-main-container .landing-page-row-1 .landing-page-header-container .landing-page-headers p {
   background-color: none;
   margin-left: 100px;
-  height: 100px;
+  height: 200px;
   width: 500px;
   border-radius: 5px;
-  overflow-y: scroll;
   -webkit-animation: popin 1s;
           animation: popin 1s;
   font-size: 25px;
 }
 
-.landing-page-main-container .landing-page-row-1 .landing-page-header-container .landing-page-headers button {
+.landing-page-main-container .landing-page-row-1 .landing-page-header-container .landing-page-headers p span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
   background-color: none;
+  padding: 40px 10px;
+}
+
+.landing-page-main-container .landing-page-row-1 .landing-page-header-container .landing-page-headers p span .fa-angle-double-right {
+  font-size: 100px;
+  color: green;
+  -webkit-animation: bounce 3s infinite;
+          animation: bounce 3s infinite;
+}
+
+.landing-page-main-container .landing-page-row-1 .landing-page-header-container .landing-page-headers button {
+  color: white;
+  background-color: black;
   width: 100px;
   margin-left: 100px;
   padding: 10px 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  border: none;
   text-decoration: none;
 }
 
@@ -438,31 +459,43 @@
 
 @-webkit-keyframes bounce {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
 }
 
 @keyframes bounce {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotate(28deg);
+            transform: rotate(28deg);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
 }
 

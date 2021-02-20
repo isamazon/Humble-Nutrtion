@@ -70,20 +70,33 @@ $themeFont2: 'Architects Daughter', cursive;
 
                     background-color: none;
                     margin-left: 100px;
-                    height: 100px;
+                    height: 200px;
                     width: 500px;
                     border-radius: 5px;
-                    overflow-y: scroll;
                     animation: popin 1s;
                     font-size: 25px;
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        transform: rotate(15deg);
+                        background-color: none;
+                        padding: 40px 10px;
+                        .fa-angle-double-right {
+                            font-size: 100px;
+                            color: green;
+                            animation: bounce 3s infinite;
+                        }
+                    } 
                 }
                 button {
-                    background-color: none;
+                    color: white;
+                    background-color: black;
                     width: 100px;
                     margin-left: 100px;
                     padding: 10px 5px;
                     transition: 0.5s;
                     outline: none;
+                    border: none;
                     text-decoration: none;
                     &:hover {
                         transform: translateY(-10px);
@@ -296,17 +309,21 @@ $themeFont2: 'Architects Daughter', cursive;
 }
 @keyframes bounce {
     0% {
-        transform: translateY(0);
+        transform: rotate(28deg);
+        transform: scale(0.5);
     }
     50% {
-        transform: translateY(-10px);
+        transform: rotate(28deg);
+        transform: scale(1);
     }
     100% {
-        transform: translateY(0);
+        transform: rotate(28deg);
+        transform: scale(0.5);
     }
 }
 @keyframes pulse {
     0% {
+        
         transform: translate(1);
     }
     50% {

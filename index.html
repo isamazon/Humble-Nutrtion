@@ -44,14 +44,15 @@
     </header>
     <!-- Hero page -->
     <div class="container-fluid landing-page-main-container">
-      <div class="circle"></div>
+      <div class="circle" id="color-selector"></div>
       <div class="row landing-page-row-1">
         <div class="col-lg-7 col-md-12 landing-page-header-container">
           <div class="landing-page-headers">
             <h1>Welcome to</h1>
-            <h3><span class="humble-span">Humble</span> <span class="nutrtion-color">nutrition</span></h3>
-            <p class="p-color">Click on the drinks below!</p>
-            <button class="learnBtn"><a href="#"></a>Learn more</button>
+            <h3><span class="humble-span">Humble</span> <span class="nutrtion-color" id="color-selector">nutrition</span></h3>
+            <p class="p-color" id="color-selector">Hover on the drinks below!    <span><i class="fas fa-angle-double-right"></i>
+            </span></p>
+            <button class="learnBtn" id="color-selector"><a href="#"></a>Learn more</button>
           </div>
         </div>
         <div class="col-lg-5 col-md-12 landing-page-shake-container">
@@ -63,30 +64,37 @@
               <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                   <li class="glide__slide slide1">
-                    <img src="/css/pictures/tea1S.png" onclick="drinkSlider('/css/pictures/tea1S.png')" class="tea1"  alt="">
+                    <img src="/css/pictures/tea1S.png" onmouseover="drinkSlider('/css/pictures/tea1S.png')" class="tea1"  alt="">
                   </li>
                   <li class="glide__slide slide2">
-                    <img src="/css/pictures/tea2S.png" onclick="drinkSlider('/css/pictures/tea2S.png')"  class="tea2"  alt="">
+                    <img src="/css/pictures/tea2S.png" onmouseover="drinkSlider('/css/pictures/tea2S.png')"  class="tea2"  alt="">
                   </li>
                   <li class="glide__slide slide3">
-                    <img src="/css/pictures/tea3S.png" onclick="drinkSlider('/css/pictures/tea3S.png')" class="tea3"  alt="">
+                    <img src="/css/pictures/tea3S.png" onmouseover="drinkSlider('/css/pictures/tea3S.png')" class="tea3"  alt="">
                   </li>
                   <!-- Protein shakes -->
                   <li class="glide__slide slide4">
-                    <img src="/css/pictures/shake1.png" onclick="drinkSlider('/css/pictures/shake1.png')" class="tea4"  alt="">
+                    <img src="/css/pictures/shake1.png" onmouseover="drinkSlider('/css/pictures/shake1.png')" class="tea4"  alt="">
                   </li>
                   <li class="glide__slide slide4">
-                    <img src="/css/pictures/shake2.png" onclick="drinkSlider('/css/pictures/shake2.png')" class="tea4"  alt="">
+                    <img src="/css/pictures/shake2.png" onmouseover="drinkSlider('/css/pictures/shake2.png')" class="tea4"  alt="">
                   </li>
                   <li class="glide__slide slide4">
-                    <img src="/css/pictures/shake3S.png" onclick="drinkSlider('/css/pictures/shake3S.png')" class="tea4"  alt="">
+                    <img src="/css/pictures/shake3S.png" onmouseover="drinkSlider('/css/pictures/shake3S.png')" class="tea4"  alt="">
+                  </li>
+                  <!-- Donut slide -->
+                  <li class="glide__slide slide4">
+                    <img src="/css/pictures/donut1.png" onmouseover="drinkSlider('/css/pictures/donut1.png')" class="tea4"  alt="">
+                  </li>
+                  <li class="glide__slide slide4">
+                    <img src="/css/pictures/donut2.png" onmouseover="drinkSlider('/css/pictures/donut2.png')" class="tea4"  alt="">
                   </li>
                 </ul>
               </div>
               <div class="glide__arrows slide-arrow" data-glide-el="controls">
                 <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left fa-2x"></i>
                 </button>
-            </div>
+              </div>
 
             <div class="glide__arrows slide-arrow2" data-glide-el="controls">
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right fa-2x"></i>
