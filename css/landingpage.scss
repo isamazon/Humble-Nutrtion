@@ -25,10 +25,10 @@ $themeFont2: 'Architects Daughter', cursive;
         }
         @media screen and (max-width: 500px) {
             clip-path: circle(300px at left 300px);
-            top: 700px;
+            bottom: 0;
             left: 0;
             width: 300px;
-            height: 300px;
+            height: 350px;
         }
     }
     .landing-page-row-1 {
@@ -280,7 +280,11 @@ $themeFont2: 'Architects Daughter', cursive;
                     justify-content: center;
                 }
             }
-           
+            @media screen and (max-width: 500px) {
+                .shake-display-container {
+                   display: none;
+                }
+            }
 
             
 
@@ -292,9 +296,12 @@ $themeFont2: 'Architects Daughter', cursive;
                 width: 60%;
                 background-color: none;
                 @media screen and (max-width: 500px) {
+                    top: 10%;
+                    height: 50%;
                     width: 95%;
                 }
                 .glide {
+                    height: 100%;
                     display: flex;
                     align-items: center;
                     background-color: none;
@@ -306,6 +313,7 @@ $themeFont2: 'Architects Daughter', cursive;
                             height: 100%;
                             background-color: none;
                             .slide1 {
+                                height: 100%;
                                 background-color: none;
                                 display: flex;
                                 align-items: center;
@@ -313,6 +321,10 @@ $themeFont2: 'Architects Daughter', cursive;
                                 .tea1 {
                                     height: 80px;
                                     width: 80px;
+                                    @media screen and (max-width:500px) {
+                                        height: 250px;
+                                        width: 250px;
+                                    }
                                     cursor: pointer;
                                     transition: 1s;
                                     &:hover {
@@ -321,6 +333,7 @@ $themeFont2: 'Architects Daughter', cursive;
                                 }
                             }
                             .slide2 {
+                                height: 100%;
                                 background-color: none;
                                 display: flex;
                                 align-items: center;
@@ -329,6 +342,10 @@ $themeFont2: 'Architects Daughter', cursive;
                                     height: 80px;
                                     width: 80px;
                                     cursor: pointer;
+                                    @media screen and (max-width:500px) {
+                                        height: 250px;
+                                        width: 250px;
+                                    }
                                     transition: 1s;
                                     &:hover {
                                         transform: translateY(-15px);
@@ -336,6 +353,7 @@ $themeFont2: 'Architects Daughter', cursive;
                                 }
                             }
                             .slide3 {
+                                height: 100%;
                                 background-color: none;
                                 display: flex;
                                 align-items: center;
@@ -345,12 +363,17 @@ $themeFont2: 'Architects Daughter', cursive;
                                     width: 80px;
                                     cursor: pointer;
                                     transition: 1s;
+                                    @media screen and (max-width:500px) {
+                                        height: 250px;
+                                        width: 250px;
+                                    }
                                     &:hover {
                                         transform: translateY(-15px);
                                     }
                                 }
                             }
                             .slide4 {
+                                height: 100%;
                                 background-color: none;
                                 display: flex;
                                 align-items: center;
@@ -360,11 +383,16 @@ $themeFont2: 'Architects Daughter', cursive;
                                     width: 80px;
                                     cursor: pointer;
                                     transition: 1s;
+                                    @media screen and (max-width:500px) {
+                                        height: 250px;
+                                        width: 250px;
+                                    }
                                     &:hover {
                                         transform: translateY(-15px);
                                     }
                                 }
                             }
+                            
                         }
                     }
                     // SLIDE ARROWS
@@ -421,12 +449,7 @@ $themeFont2: 'Architects Daughter', cursive;
         }
     }
 }
-@media screen and (max-width:500px) {
-    .shake-selector-container {
-        height: 100%;
-        background-color: red;
-    }
-} 
+
 // Color class lists 
 .tea1-colors {
     background-image: linear-gradient(to bottom right, rgb(7, 199, 212), yellow);
