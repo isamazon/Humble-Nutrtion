@@ -331,6 +331,14 @@ hr.feauturette-divider {
   background-size: cover;
 }
 
+@media screen and (max-width: 990px) {
+  .local-owned-container .local-owned-staff-row .local-owned-col {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+  }
+}
+
 .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box {
   display: -webkit-box;
   display: -ms-flexbox;

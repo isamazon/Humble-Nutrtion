@@ -81,8 +81,15 @@ header .btn {
   display: none;
 }
 
+@media screen and (max-width: 500px) {
+  header .btn {
+    position: absolute;
+    right: 10px;
+  }
+}
+
 header.sticky {
-  background: #707070;
+  background: lightgray;
   padding: 15px 100px;
 }
 
@@ -92,13 +99,14 @@ header.sticky {
   }
   header .menu {
     position: fixed;
-    background: #707070;
+    background: black;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     min-width: 300px;
     height: 100vh;
+    width: 100%;
     top: 0;
     right: -100%;
     padding: 80px 50px;
@@ -111,6 +119,7 @@ header.sticky {
     right: 0;
   }
   header .menu .close-btn {
+    color: white;
     position: absolute;
     top: 0;
     left: 0;
