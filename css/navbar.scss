@@ -20,19 +20,22 @@ $themeFont2: 'Architects Daughter', cursive;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 0px;
     transition: 0.6s;
     .brand {
         color: black;
         font-size: 20px;
         font-weight: 700;
         text-transform: uppercase;
+        padding-left: 80px;
         text-decoration: none;
         letter-spacing: 2px;
+        
         span {
            font-family: $themeFont; 
         }
     }
+
 
     .menu {
         position: relative;
@@ -48,11 +51,9 @@ $themeFont2: 'Architects Daughter', cursive;
             margin: 0 30px;
             padding: 0 10px;
             border-radius: 20px;
-            transition: 0.3s;
-            transition-property: color, background;
+            transition: 1.3s;
             &:hover {
-                color: #000;
-                background: #fff;
+              transform: translateY(-10px);
             }
         }
     }
@@ -63,17 +64,12 @@ $themeFont2: 'Architects Daughter', cursive;
         padding-left: 50px;
         display: none;
     }
-    @media screen and (max-width: 500px) {
-      .btn {
-        position: absolute;
-        right: 10px;
-      }
-    }
+
   }
   header.sticky {
-    background: rgb(211, 211, 211);
-    padding: 15px 100px;
-}
+    background: white;
+    box-shadow: 0px 0px 15px black;   
+  }
 
   @media (max-width: 1060px){
     header .btn{
@@ -107,7 +103,7 @@ $themeFont2: 'Architects Daughter', cursive;
     }
   
     header .menu a{
-        color: white;
+      color: white;
       display: block;
       font-size: 20px;
       margin: 20px;
@@ -117,7 +113,7 @@ $themeFont2: 'Architects Daughter', cursive;
   
   @media (max-width: 630px){
     .section-main h1{
-      font-size: 50px;
+      font-size: 60px;
       line-height: 60px;
     }
   }

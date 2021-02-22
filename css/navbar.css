@@ -23,7 +23,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 100px;
+  padding: 20px 0px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -33,6 +33,7 @@ header .brand {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-left: 80px;
   text-decoration: none;
   letter-spacing: 2px;
 }
@@ -62,15 +63,13 @@ header .menu a {
   margin: 0 30px;
   padding: 0 10px;
   border-radius: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transition-property: color, background;
-  transition-property: color, background;
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
 }
 
 header .menu a:hover {
-  color: #000;
-  background: #fff;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 header .btn {
@@ -81,16 +80,10 @@ header .btn {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
-  header .btn {
-    position: absolute;
-    right: 10px;
-  }
-}
-
 header.sticky {
-  background: lightgray;
-  padding: 15px 100px;
+  background: white;
+  -webkit-box-shadow: 0px 0px 15px black;
+          box-shadow: 0px 0px 15px black;
 }
 
 @media (max-width: 1060px) {
@@ -136,7 +129,7 @@ header.sticky {
 
 @media (max-width: 630px) {
   .section-main h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 60px;
   }
 }

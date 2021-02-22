@@ -146,6 +146,15 @@ function drinkSlider(image) {
         animation2;
         paragraph.textContent = 'Where we have delicious nutritious protien packed donuts!';
         animation1;
+    }  else if (image === '/css/pictures/donut3.png') {
+        circleColor.style.backgroundColor = '#b57d85';
+        lrnBtn.style.backgroundColor = '#b57d85';
+        headerColor.style.color = '#b57d85';
+        headerSpan.style.color = '#b57d85';
+        paragraph.style.color ='#b57d85'
+        animation2;
+        paragraph.textContent = 'Where we have delicious nutritious protien packed donuts!';
+        animation1;
     }
 }
 
