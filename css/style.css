@@ -325,26 +325,18 @@ hr.feauturette-divider {
       -ms-flex-pack: start;
           justify-content: flex-start;
   background-image: url(./pictures/staffpicpng.png);
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media screen and (max-width: 990px) {
-  .local-owned-container .local-owned-staff-row .local-owned-col {
-    width: 990px;
-    height: 100%;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .local-owned-container .local-owned-staff-row .local-owned-col {
-    width: 100%;
-    height: 100%;
     background-size: none;
     background-repeat: none;
     background-position: center;
+    background-image: url(/css/pictures/staffpicmobile.jpg);
   }
 }
 
