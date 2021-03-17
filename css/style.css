@@ -531,9 +531,9 @@ hr.feauturette-divider {
 }
 
 .instagram-container .instagram-feed-row .instagram-text-col .instagram-icon-container .fa-instagram:hover {
-  -webkit-transform: translateX(-40px);
-          transform: translateX(-40px);
-  color: green;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: black;
 }
 
 @media screen and (max-width: 500px) {
