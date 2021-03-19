@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+$themeFont: "Shadows Into Light", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap");
+$themeFont2: "Architects Daughter", cursive;
+
+/*SCSS variables*/
+/*          FONTS             */
+$dancingfont: "Dancing Script", cursive;
+/*          COLORS            */
+$greencolor1: rgb(30, 228, 30);
+
+.contact-main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: whitesmoke;
+  .contact-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 100px;
+    background-color: none;
+    @media screen and (max-width: 1060px) {
+      padding-top: 150px;
+    }
+    .row-1 {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      background-color: none;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+      .contact-col-1 {
+        position: relative;
+        display: flex;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        flex-direction: column;
+        height: 600px;
+        background: white;
+        border-left: 0px;
+        transition: 0.5s;
+        @media screen and (max-width: 1200px) {
+          border-top-left-radius: 20px;
+        }
+        // &:hover {
+        //   z-index: 1;
+
+        //   box-shadow: $greencolor1 -10px 0px 20px -10px;
+        // }
+        .contact-header {
+          position: relative;
+          padding-top: 20px;
+          background-color: none;
+          height: 20%;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            position: relative;
+            top: 10%;
+            font-size: 40px;
+            align-self: center;
+            font-family: $themeFont;
+            font-weight: 900;
+            letter-spacing: 5px;
+          }
+        }
+
+        form {
+          position: relative;
+          top: 0%;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          background-color: none;
+          .name-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 90px;
+            top: 5%;
+            background: none;
+            .name-input {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: none;
+              height: 20%;
+              bottom: 0;
+              width: 100%;
+
+              .custom-field-2 {
+                position: relative;
+                font-size: 15px;
+                padding-top: 20px;
+                bottom: 10%;
+                width: 70%;
+                input:valid + .placeholder,
+                input:focus + .placeholder {
+                  top: 10px;
+                  font-size: 10px;
+                  color: black;
+                }
+                input {
+                  border: none;
+                  appearance: none;
+                  background: linear-gradient(90deg, $greencolor1, $greencolor1)
+                      center bottom/0 2px no-repeat,
+                    linear-gradient(90deg, black, black) left bottom/100% 2px
+                      no-repeat,
+                    linear-gradient(90deg, white, white) left bottom/100% 100%
+                      no-repeat;
+                  transition: background-size 0.3s ease;
+                  padding: 12px;
+                  border-radius: 0;
+                  border-top-left-radius: 3px;
+                  border-top-right-radius: 3px;
+                  width: 100%;
+                  outline: none;
+                  font-size: 15px;
+                  &:valid,
+                  &:focus {
+                    background-size: 100% 2px, 100% 2px, 100%;
+                  }
+                }
+
+                .placeholder {
+                  position: absolute;
+                  left: 12px;
+                  letter-spacing: 5px;
+                  top: calc(50% + 10px);
+                  transform: translateY(-50%);
+                  color: black;
+                  transition: top 0.3s ease, font-size 0.3s ease,
+                    color 0.3s ease;
+                }
+              }
+            }
+          }
+
+          .email-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 90px;
+            top: 5%;
+            background: none;
+            .email-input {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: none;
+              height: 20%;
+              bottom: 0;
+              width: 100%;
+
+              .custom-field-2 {
+                position: relative;
+                font-size: 15px;
+                padding-top: 20px;
+                bottom: 10%;
+                width: 70%;
+                input:valid + .placeholder,
+                input:focus + .placeholder {
+                  top: 10px;
+                  font-size: 10px;
+                  color: black;
+                }
+                input {
+                  border: none;
+                  appearance: none;
+                  background: linear-gradient(90deg, $greencolor1, $greencolor1)
+                      center bottom/0 2px no-repeat,
+                    linear-gradient(90deg, black, black) left bottom/100% 2px
+                      no-repeat,
+                    linear-gradient(90deg, white, white) left bottom/100% 100%
+                      no-repeat;
+                  transition: background-size 0.3s ease;
+                  padding: 12px;
+                  border-radius: 0;
+                  border-top-left-radius: 3px;
+                  border-top-right-radius: 3px;
+                  width: 100%;
+                  outline: none;
+                  font-size: 15px;
+                  &:valid,
+                  &:focus {
+                    background-size: 100% 2px, 100% 2px, 100%;
+                  }
+                }
+
+                .placeholder {
+                  position: absolute;
+                  left: 12px;
+                  letter-spacing: 5px;
+                  top: calc(50% + 10px);
+                  transform: translateY(-50%);
+                  color: black;
+                  transition: top 0.3s ease, font-size 0.3s ease,
+                    color 0.3s ease;
+                }
+              }
+            }
+          }
+
+          .message-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 50%;
+            top: 5%;
+            background: none;
+            .message {
+              width: 70%;
+              padding-left: 10px;
+              padding-top: 10px;
+              .placeholder {
+                color: black;
+              }
+            }
+          }
+          .button-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20%;
+            bottom: 0;
+            background-color: none;
+            .button-inner-container {
+              background: none;
+              display: flex;
+              justify-content: flex-end;
+              width: 70%;
+              .submit-button {
+                position: relative;
+                height: 50%;
+                width: 20%;
+                align-self: flex-end;
+                background: none;
+                letter-spacing: 2px;
+                border: 1px solid black;
+                transition: 0.8s;
+                &:hover {
+                  background: black;
+                  color: white;
+                  transform: translateY(-10px);
+                }
+              }
+            }
+          }
+        }
+      }
+      .contact-col-2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: black;
+        z-index: 1;
+        box-shadow: rgb(70, 82, 95) -20px 0px 30px -10px;
+        @media screen and (max-width: 1200px) {
+          border-bottom-left-radius: 0px;
+          border-top-left-radius: 0px;
+        }
+        .contact-header {
+          position: relative;
+          display: flex;
+          width: 100%;
+          height: 20%;
+          background-color: none;
+
+          h1 {
+            position: relative;
+            top: 15%;
+            color: white;
+            font-size: 20px;
+            font-weight: 900;
+            align-self: center;
+            justify-self: center;
+            padding-left: 20px;
+            text-align: center;
+            letter-spacing: 10px;
+            padding-bottom: 20px;
+            font-family: $themeFont;
+          }
+        }
+        .contact-email {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 20%;
+          background-color: none;
+          border-top: 1px solid white;
+          border-bottom: 1px solid white;
+          h1 {
+            padding-left: 40px;
+            color: white;
+            font-size: 20px;
+            justify-content: flex-start;
+          }
+          p {
+            color: white;
+            font-size: 20px;
+            justify-content: flex-start;
+            padding-left: 40px;
+          }
+        }
+        .contact-phone {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 20%;
+          background-color: none;
+          border-bottom: 1px solid white;
+          h1 {
+            padding-left: 40px;
+            color: white;
+            font-size: 20px;
+            justify-content: flex-start;
+          }
+          a {
+            color: white;
+            font-size: 20px;
+            justify-content: flex-start;
+            padding-left: 40px;
+            text-decoration: underline 1px white;
+          }
+        }
+        .contact-address {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 20%;
+          background-color: none;
+          border-bottom: 1px solid white;
+          h1 {
+            padding-left: 40px;
+            color: white;
+            font-size: 20px;
+            justify-content: flex-start;
+          }
+          a {
+            color: white;
+            font-size: 15px;
+            justify-content: flex-start;
+            padding-left: 40px;
+            text-decoration: underline 1px white;
+          }
+        }
+        .contact-socials {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 100%;
+          height: 20%;
+          background-color: none;
+          a {
+            display: flex;
+            justify-content: center;
+            background-color: none;
+            text-decoration: none;
+            .fa-instagram {
+              margin-top: 20px;
+              color: white;
+              transition: 0.5s;
+              padding: 0px 15px;
+              &:hover {
+                color: $greencolor1;
+              }
+            }
+            .fa-facebook-f {
+              margin-top: 27px;
+              color: white;
+              transition: 0.5s;
+              padding-right: 20px;
+
+              &:hover {
+                color: $greencolor1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

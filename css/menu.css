@@ -21,8 +21,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   background-color: white;
   height: 100%;
@@ -33,11 +33,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   background-color: white;
   padding: 100px 0px;
@@ -53,17 +53,17 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   justify-self: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 200px;
   margin-bottom: 80px;
   border: 8px solid whitesmoke;
   -webkit-animation: fadedown 1s;
-  animation: fadedown 1s;
+          animation: fadedown 1s;
   background-image: url("./pictures/banner.png");
   background-color: black;
   background-attachment: fixed;
@@ -89,8 +89,8 @@
   top: 5%;
   font-family: "Shadows Into Light", cursive;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   color: white;
   font-weight: 500;
   font-size: 50px;
@@ -103,8 +103,8 @@
   font-family: "Architects Daughter", cursive;
   font-size: 20px;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .menu-main-container .menu-container .menu-row-1 .featured-drinks-col a {
@@ -113,8 +113,8 @@
   bottom: 0%;
   font-size: 40px;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   text-decoration: none;
   font-family: "Shadows Into Light", cursive;
   -webkit-transition: 1s;
@@ -160,15 +160,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: none;
   height: 300px;
   -webkit-animation: fadeleft 1s;
-  animation: fadeleft 1s;
+          animation: fadeleft 1s;
 }
 
 .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col {
@@ -177,20 +177,15 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #c2b7a1;
   border: 8px solid whitesmoke;
   height: 95%;
   width: 100%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,13 +195,7 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-section
-  .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section .shakesmenu-img {
   position: absolute;
   background-color: none;
   width: 100%;
@@ -215,30 +204,19 @@
   transition: 1.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-section
-  .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section .shakesmenu-img:hover {
   -webkit-transform: translateY(-25px);
-  transform: translateY(-25px);
+          transform: translateY(-25px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   display: flex;
   background-color: none;
@@ -246,36 +224,24 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  p {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section p {
   position: absolute;
   top: 35%;
   color: black;
   text-align: center;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 10%;
   left: 0;
   width: 100%;
@@ -283,102 +249,48 @@
 }
 
 @media screen and (max-width: 500px) {
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-info-section
-    .accordion {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion {
     top: -20px;
   }
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item {
   position: relative;
   width: 100%;
   background-color: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-button {
   color: black;
   background: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-button:hover {
   -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:focus {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-button:focus {
   border-color: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button::after {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-button::after {
   color: black;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button
-  h3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-button h3 {
   font-size: 25px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -386,28 +298,13 @@
   margin-right: 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-collapse {
   position: relative;
+  border: solid black;
+  border-width: 0 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body {
   position: relative;
   width: 100%;
   background: #c2b7a1;
@@ -418,60 +315,28 @@
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body:hover {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body
-  .drink-list {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body .drink-list {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-1
-  .inner-drinks-col
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body
-  .drink-list
-  li {
+.menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body .drink-list li {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 5px 0px;
   background: none;
   list-style-type: none;
@@ -486,41 +351,32 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: none;
   height: 300px;
   -webkit-animation: faderight 1s;
-  animation: faderight 1s;
+          animation: faderight 1s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #029dbb;
   border: 8px solid whitesmoke;
   height: 95%;
   width: 100%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -530,13 +386,7 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-section
-  .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section .shakesmenu-img {
   position: absolute;
   background-color: none;
   width: 100%;
@@ -545,66 +395,43 @@
   transition: 1.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-section
-  .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section .shakesmenu-img:hover {
   -webkit-transform: translateY(-25px);
-  transform: translateY(-25px);
+          transform: translateY(-25px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   background-color: none;
   height: 100%;
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  p {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section p {
   position: absolute;
   top: 35%;
   color: black;
   text-align: center;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 10%;
   left: 0;
   width: 100%;
@@ -612,105 +439,51 @@
 }
 
 @media screen and (max-width: 500px) {
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-info-section
-    .accordion {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion {
     top: -20px;
   }
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item {
   position: relative;
   width: 100%;
   background-color: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-button {
   color: black;
   background: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-button:hover {
   -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:focus {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-button:focus {
   border-color: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button::after {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-button::after {
   color: black;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button
-  h3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-button h3 {
   font-size: 25px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -718,29 +491,12 @@
   margin-right: 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-collapse {
   position: relative;
   top: -10px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body2 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body2 {
   position: relative;
   width: 100%;
   background: #029dbb;
@@ -750,60 +506,28 @@
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body2:hover {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body2:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body2
-  .drink-list {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body2 .drink-list {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-2
-  .inner-drinks-col-2
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body2
-  .drink-list
-  li {
+.menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body2 .drink-list li {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 5px 0px;
   background: none;
   list-style-type: none;
@@ -818,41 +542,32 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: none;
   height: 300px;
   -webkit-animation: fadeleft 1s;
-  animation: fadeleft 1s;
+          animation: fadeleft 1s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #775926;
   border: 8px solid whitesmoke;
   height: 95%;
   width: 100%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -862,13 +577,7 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-section
-  .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section .shakesmenu-img {
   position: absolute;
   background-color: none;
   width: 100%;
@@ -877,66 +586,43 @@
   transition: 1.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-section
-  .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section .shakesmenu-img:hover {
   -webkit-transform: translateY(-25px);
-  transform: translateY(-25px);
+          transform: translateY(-25px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   background-color: none;
   height: 100%;
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  p {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section p {
   position: absolute;
   top: 35%;
   color: black;
   text-align: center;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 10%;
   left: 0;
   width: 100%;
@@ -944,102 +630,48 @@
 }
 
 @media screen and (max-width: 500px) {
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-info-section
-    .accordion {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion {
     top: -20px;
   }
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item {
   position: relative;
   width: 100%;
   background-color: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-button {
   color: black;
   background: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-button:hover {
   -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:focus {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-button:focus {
   border-color: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button::after {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-button::after {
   color: black;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button
-  h3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-button h3 {
   font-size: 25px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -1047,29 +679,12 @@
   margin-right: 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-collapse {
   position: relative;
   top: -10px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 {
   position: relative;
   width: 100%;
   background: #775926;
@@ -1079,60 +694,28 @@
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3:hover {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3
-  .drink-list {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 .drink-list {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-3
-  .inner-drinks-col-3
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3
-  .drink-list
-  li {
+.menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 .drink-list li {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 5px 0px;
   background: none;
   list-style-type: none;
@@ -1147,41 +730,32 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: none;
   height: 300px;
   -webkit-animation: faderight 1s;
-  animation: faderight 1s;
+          animation: faderight 1s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #bb9e4f;
   border: 8px solid whitesmoke;
   height: 95%;
   width: 100%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1191,13 +765,7 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-section
-  .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section .shakesmenu-img {
   position: absolute;
   background-color: none;
   width: 100%;
@@ -1206,66 +774,43 @@
   transition: 1.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-section
-  .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section .shakesmenu-img:hover {
   -webkit-transform: translateY(-25px);
-  transform: translateY(-25px);
+          transform: translateY(-25px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   background-color: none;
   height: 100%;
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  p {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section p {
   position: absolute;
   top: 35%;
   color: black;
   text-align: center;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 10%;
   left: 0;
   width: 100%;
@@ -1273,102 +818,48 @@
 }
 
 @media screen and (max-width: 500px) {
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-info-section
-    .accordion {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion {
     top: -20px;
   }
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item {
   position: relative;
   width: 100%;
   background-color: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-button {
   color: black;
   background: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-button:hover {
   -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:focus {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-button:focus {
   border-color: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button::after {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-button::after {
   color: black;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button
-  h3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-button h3 {
   font-size: 25px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -1376,29 +867,12 @@
   margin-right: 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-collapse {
   position: relative;
   top: -10px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 {
   position: relative;
   width: 100%;
   background: #bb9e4f;
@@ -1408,60 +882,28 @@
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3:hover {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3
-  .drink-list {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 .drink-list {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-4
-  .inner-drinks-col-4
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body3
-  .drink-list
-  li {
+.menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body3 .drink-list li {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 5px 0px;
   background: none;
   list-style-type: none;
@@ -1476,41 +918,32 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: none;
   height: 300px;
   -webkit-animation: faderight 1s;
-  animation: faderight 1s;
+          animation: faderight 1s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: white;
   border: 8px solid whitesmoke;
   height: 95%;
   width: 100%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1520,82 +953,53 @@
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-section
-  .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img {
   position: absolute;
   background-color: none;
-  width: 300px;
+  width: 350px;
   margin-left: 100px;
   height: 300px;
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-section
-  .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img:hover {
   -webkit-transform: translateY(-25px);
-  transform: translateY(-25px);
+          transform: translateY(-25px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   background-color: none;
   height: 100%;
   width: 50%;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  p {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section p {
   position: absolute;
   top: 35%;
   color: black;
   text-align: center;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 10%;
   left: 0;
   width: 100%;
@@ -1603,200 +1007,109 @@
 }
 
 @media screen and (max-width: 500px) {
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-info-section
-    .accordion {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion {
     top: -20px;
   }
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item {
   position: relative;
   width: 100%;
   background-color: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-button {
+  position: absolute;
+  left: 0;
+  top: 0;
   color: black;
-  background: whitesmoke;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-button:hover {
   -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button:focus {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-button:focus {
   border-color: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button::after {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-button::after {
   color: black;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-button
-  h3 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-button h3 {
+  -ms-grid-column-align: center;
+      justify-self: center;
   font-size: 25px;
   color: black;
+  text-align: center;
   font-family: "Shadows Into Light", cursive;
   font-weight: 900;
   margin-right: 0px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse {
   position: relative;
-  top: -10px;
+  top: 50px;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body5 {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body5 {
   position: relative;
   width: 100%;
   background: white;
-  height: 150px;
+  height: 190px;
   overflow-y: scroll;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body5:hover {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body5:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body5
-  .drink-list {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body5 .drink-list {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 30px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.menu-main-container
-  .menu-container
-  .menu-row-1
-  .menu-col-5
-  .inner-drinks-col-5
-  .drink-info-section
-  .accordion
-  .accordion-item
-  .accordion-collapse
-  .accordion-body5
-  .drink-list
-  li {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body5 .drink-list li {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 5px 0px;
   background: none;
   list-style-type: none;
   font-size: 15px;
   letter-spacing: 2px;
+}
+
+.menu-main-container .menu-container .menu-row-1 .accordion-collapse {
+  border: solid rgba(0, 0, 0, 0);
+  border-width: 0 0px;
 }
 
 @media screen and (max-width: 500px) {
@@ -1807,641 +1120,129 @@
     height: 400px;
     width: 100%;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4 {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 {
     background-color: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3
-    .drink-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-section {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section {
     height: 45%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: none;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3
-    .drink-section
-    .shakesmenu-img,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-section
-    .shakesmenu-img {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-section .shakesmenu-img,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section .shakesmenu-img {
     height: 100%;
     width: 70%;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3
-    .drink-info-section,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-info-section {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-info-section,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section {
     background-color: none;
     width: 100%;
     height: 55%;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3
-    .drink-info-section
-    h1,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-info-section
-    h1 {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-info-section h1,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section h1 {
     width: 100%;
     font-size: 25px;
     text-align: center;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-2
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-3
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-1
-    .inner-drinks-col-4
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-2
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-3
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-2
-    .inner-drinks-col-4
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-2
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-3
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-3
-    .inner-drinks-col-4
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-2
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-3
-    .drink-info-section
-    p,
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-4
-    .inner-drinks-col-4
-    .drink-info-section
-    p {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-info-section p,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-info-section p {
     top: 55px;
     font-size: 15px;
   }
@@ -2451,80 +1252,42 @@
   .menu-main-container .menu-container .menu-row-1 .menu-col-5 {
     height: 500px;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5 {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-section {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50%;
     width: 100%;
     background-color: none;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-section
-    .shakesmenu-img {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img {
     width: 70%;
     margin-left: 0px;
     height: 100%;
     background-color: none;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-info-section {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section {
     width: 100%;
     height: 50%;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-info-section
-    h1 {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section h1 {
     top: 0%;
     color: black;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-info-section
-    p {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section p {
     top: 20%;
     padding: 0px 20px;
   }
-  .menu-main-container
-    .menu-container
-    .menu-row-1
-    .menu-col-5
-    .inner-drinks-col-5
-    .drink-info-section
-    button {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section button {
     left: 30%;
   }
 }
@@ -2533,12 +1296,12 @@
   0% {
     opacity: 0%;
     -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
+            transform: translateY(-50px);
   }
   100% {
     opacity: 100%;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -2546,72 +1309,72 @@
   0% {
     opacity: 0%;
     -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
+            transform: translateY(-50px);
   }
   100% {
     opacity: 100%;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @-webkit-keyframes fadeleft {
   0% {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
     -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+            transform: translateX(-100px);
   }
   100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes fadeleft {
   0% {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
     -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+            transform: translateX(-100px);
   }
   100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @-webkit-keyframes faderight {
   0% {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
     -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+            transform: translateX(100px);
   }
   100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes faderight {
   0% {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
     -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+            transform: translateX(100px);
   }
   100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -2619,12 +1382,12 @@
   0% {
     opacity: 0%;
     -webkit-transform: scale(0.5);
-    transform: scale(0.5);
+            transform: scale(0.5);
   }
   100% {
     opacity: 100%;
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -2632,42 +1395,42 @@
   0% {
     opacity: 0%;
     -webkit-transform: scale(0.5);
-    transform: scale(0.5);
+            transform: scale(0.5);
   }
   100% {
     opacity: 100%;
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+            transform: translateY(-5px);
   }
   50% {
     -webkit-transform: translateY(10px);
-    transform: translateY(10px);
+            transform: translateY(10px);
   }
   100% {
     -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+            transform: translateY(-5px);
   }
   50% {
     -webkit-transform: translateY(5px);
-    transform: translateY(5px);
+            transform: translateY(5px);
   }
   100% {
     -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 

@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap");
+/*SCSS variables*/
+/*          FONTS             */
+/*          COLORS            */
+.contact-main-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.contact-main-container .contact-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding-top: 100px;
+  background-color: none;
+}
+
+@media screen and (max-width: 1060px) {
+  .contact-main-container .contact-container {
+    padding-top: 150px;
+  }
+}
+
+.contact-main-container .contact-container .row-1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+  background: white;
+  border-left: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-main-container .contact-container .row-1 .contact-col-1 {
+    border-top-left-radius: 20px;
+  }
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 .contact-header {
+  position: relative;
+  padding-top: 20px;
+  background-color: none;
+  height: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 .contact-header h1 {
+  position: relative;
+  top: 10%;
+  font-size: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form {
+  position: relative;
+  top: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 90px;
+  top: 5%;
+  background: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+  height: 20%;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 {
+  position: relative;
+  font-size: 15px;
+  padding-top: 20px;
+  bottom: 10%;
+  width: 70%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 input:valid + .placeholder,
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 input:focus + .placeholder {
+  top: 10px;
+  font-size: 10px;
+  color: black;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 input {
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: -webkit-gradient(linear, left top, right top, from(#1ee41e), to(#1ee41e)) center bottom/0 2px no-repeat, -webkit-gradient(linear, left top, right top, from(black), to(black)) left bottom/100% 2px no-repeat, -webkit-gradient(linear, left top, right top, from(white), to(white)) left bottom/100% 100% no-repeat;
+  background: linear-gradient(90deg, #1ee41e, #1ee41e) center bottom/0 2px no-repeat, linear-gradient(90deg, black, black) left bottom/100% 2px no-repeat, linear-gradient(90deg, white, white) left bottom/100% 100% no-repeat;
+  -webkit-transition: background-size 0.3s ease;
+  transition: background-size 0.3s ease;
+  padding: 12px;
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 input:valid, .contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 input:focus {
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .name-container .name-input .custom-field-2 .placeholder {
+  position: absolute;
+  left: 12px;
+  letter-spacing: 5px;
+  top: calc(50% + 10px);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: black;
+  -webkit-transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 90px;
+  top: 5%;
+  background: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+  height: 20%;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 {
+  position: relative;
+  font-size: 15px;
+  padding-top: 20px;
+  bottom: 10%;
+  width: 70%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 input:valid + .placeholder,
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 input:focus + .placeholder {
+  top: 10px;
+  font-size: 10px;
+  color: black;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 input {
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: -webkit-gradient(linear, left top, right top, from(#1ee41e), to(#1ee41e)) center bottom/0 2px no-repeat, -webkit-gradient(linear, left top, right top, from(black), to(black)) left bottom/100% 2px no-repeat, -webkit-gradient(linear, left top, right top, from(white), to(white)) left bottom/100% 100% no-repeat;
+  background: linear-gradient(90deg, #1ee41e, #1ee41e) center bottom/0 2px no-repeat, linear-gradient(90deg, black, black) left bottom/100% 2px no-repeat, linear-gradient(90deg, white, white) left bottom/100% 100% no-repeat;
+  -webkit-transition: background-size 0.3s ease;
+  transition: background-size 0.3s ease;
+  padding: 12px;
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 input:valid, .contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 input:focus {
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .email-container .email-input .custom-field-2 .placeholder {
+  position: absolute;
+  left: 12px;
+  letter-spacing: 5px;
+  top: calc(50% + 10px);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: black;
+  -webkit-transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .message-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 50%;
+  top: 5%;
+  background: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .message-container .message {
+  width: 70%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .message-container .message .placeholder {
+  color: black;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .button-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  background-color: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .button-container .button-inner-container {
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 70%;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .button-container .button-inner-container .submit-button {
+  position: relative;
+  height: 50%;
+  width: 20%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: none;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-1 form .button-container .button-inner-container .submit-button:hover {
+  background: black;
+  color: white;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: black;
+  z-index: 1;
+  -webkit-box-shadow: #46525f -20px 0px 30px -10px;
+          box-shadow: #46525f -20px 0px 30px -10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-main-container .contact-container .row-1 .contact-col-2 {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-header h1 {
+  position: relative;
+  top: 15%;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-left: 20px;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-email {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-email h1 {
+  padding-left: 40px;
+  color: white;
+  font-size: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-email p {
+  color: white;
+  font-size: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-phone {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+  border-bottom: 1px solid white;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-phone h1 {
+  padding-left: 40px;
+  color: white;
+  font-size: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-phone a {
+  color: white;
+  font-size: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 40px;
+  -webkit-text-decoration: underline 1px white;
+          text-decoration: underline 1px white;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-address {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+  border-bottom: 1px solid white;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-address h1 {
+  padding-left: 40px;
+  color: white;
+  font-size: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-address a {
+  color: white;
+  font-size: 15px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 40px;
+  -webkit-text-decoration: underline 1px white;
+          text-decoration: underline 1px white;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+  text-decoration: none;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials a .fa-instagram {
+  margin-top: 20px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0px 15px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials a .fa-instagram:hover {
+  color: #1ee41e;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials a .fa-facebook-f {
+  margin-top: 27px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-right: 20px;
+}
+
+.contact-main-container .contact-container .row-1 .contact-col-2 .contact-socials a .fa-facebook-f:hover {
+  color: #1ee41e;
+}
+/*# sourceMappingURL=contact.css.map */

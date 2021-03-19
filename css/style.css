@@ -11,59 +11,6 @@ body {
 }
 
 /*                  CAROUSEL                      */
-.carousel-item {
-  height: 95vh;
-  background-color: black;
-  color: white;
-  position: relative;
-}
-
-.carousel-item .overlay-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-.carousel-item .overlay-image-1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-
-@media screen and (max-width: 930px) {
-  .carousel-item .overlay-image-1 {
-    background: url("/css/pictures/HNslidesmall.jpg");
-  }
-}
-
-.carousel-item .container {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  border-radius: 20px;
-  padding: 10px 50px;
-  background-color: rgba(22, 16, 16, 0.404);
-}
-
-.carousel-item .container .carousel-h1 {
-  text-shadow: 0px 0px 5px black;
-}
-
 /*          Second container          */
 .second-container {
   position: relative;
@@ -148,6 +95,7 @@ body {
 
 .second-container .second-row .second-row-col-1 .about-me-info .about-me-p {
   text-align: center;
+  padding: 30px;
 }
 
 .second-container .second-row .second-row-col-2 {
@@ -170,6 +118,8 @@ body {
 }
 
 .second-container .second-row .second-row-col-2 .hours-section {
+  position: relative;
+  top: -55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,6 +138,8 @@ body {
 }
 
 .second-container .second-row .second-row-col-2 .hours-info {
+  position: relative;
+  top: -35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,6 +173,8 @@ body {
 }
 
 .second-container .second-row .second-row-col-3 {
+  position: relative;
+  top: -12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,6 +233,7 @@ body {
 
 .second-container .second-row .second-row-col-3 .menu-info .menu-p {
   text-align: center;
+  padding: 0px 30px;
 }
 
 .second-container .second-row .second-row-col-3 .menu-info .button-container {
@@ -326,6 +281,8 @@ hr.feauturette-divider {
           justify-content: flex-start;
   background-image: url(./pictures/staffpicpng.png);
   background-position: center center;
+  -webkit-box-shadow: #0f0f11 0px 20px 10px -12px inset, black 0px 18px 36px -18px inset;
+          box-shadow: #0f0f11 0px 20px 10px -12px inset, black 0px 18px 36px -18px inset;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,13 +312,15 @@ hr.feauturette-divider {
   border-radius: 20px;
   position: absolute;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.411);
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.211);
   width: 50%;
 }
 
 @media screen and (max-width: 930px) {
   .local-owned-container .local-owned-staff-row .local-owned-col .local-owned-info-box {
     width: 100%;
+    margin-left: 0px;
   }
 }
 
@@ -405,6 +364,7 @@ hr.feauturette-divider {
           align-items: center;
   background-color: none;
   height: 100%;
+  z-index: 0;
 }
 
 .instagram-container .instagram-feed-row .instagram-img-col img {
@@ -490,6 +450,7 @@ hr.feauturette-divider {
   font-size: 20px;
   text-align: center;
   padding: 0px 90px;
+  margin-top: 10px;
   height: 100px;
   background-color: none;
   position: absolute;
@@ -577,6 +538,8 @@ hr.feauturette-divider {
 }
 
 .third-container .third-row .third-row-col-1 .location-info-box .location-info-h1 {
+  position: relative;
+  top: 10%;
   letter-spacing: 5px;
   text-align: center;
 }
@@ -609,7 +572,7 @@ hr.feauturette-divider {
 /*          FOOTER CONTAINER            */
 .main-footer-container {
   position: relative;
-  margin: 400px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   background-color: black;
 }
 
@@ -650,10 +613,11 @@ hr.feauturette-divider {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: none;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 200px;
+  height: 250px;
   padding: 10px 20px;
 }
 
@@ -665,41 +629,13 @@ hr.feauturette-divider {
   letter-spacing: 2px;
   color: white;
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
 }
 
 .main-footer-container .footer-container .info-row-container .company-col .company-info-box .company-info-p {
   color: white;
-  text-align: start;
-}
-
-.main-footer-container .footer-container .info-row-container .products-col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  height: 200px;
-  padding: 10px 20px;
-}
-
-.main-footer-container .footer-container .info-row-container .products-col .products-info-box {
-  background-color: none;
-}
-
-.main-footer-container .footer-container .info-row-container .products-col .products-info-box .footer-headers {
-  letter-spacing: 2px;
-  color: white;
   text-align: center;
-}
-
-.main-footer-container .footer-container .info-row-container .products-col .products-info-box .product-links {
-  color: white;
 }
 
 .main-footer-container .footer-container .info-row-container .useful-links-col {
@@ -715,7 +651,7 @@ hr.feauturette-divider {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 20px;
-  height: 200px;
+  height: 250px;
   background-color: none;
 }
 
@@ -727,10 +663,27 @@ hr.feauturette-divider {
   letter-spacing: 2px;
   color: white;
   text-align: center;
+  letter-spacing: 3px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
 }
 
 .main-footer-container .footer-container .info-row-container .useful-links-col .useful-links-box .use-links {
+  text-align: center;
   color: white;
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-footer-container .footer-container .info-row-container .useful-links-col .useful-links-box .use-links:hover {
+  color: #1ee41e;
+}
+
+.main-footer-container .footer-container .info-row-container .useful-links-col .useful-links-box .fa-book-open {
+  padding-right: 10px;
 }
 
 .main-footer-container .footer-container .info-row-container .contact-info-col {
@@ -745,21 +698,63 @@ hr.feauturette-divider {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 200px;
+  height: 250px;
   padding: 10px 20px;
+  background: none;
 }
 
 .main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box {
   background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .footer-headers {
   color: white;
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
 }
 
 .main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .contact-links {
+  text-align: center;
   color: white;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .instagram-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: solid white 1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .instagram-link:hover {
+  color: #1ee41e;
+  border-bottom: solid #1ee41e 1px;
+}
+
+.main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .contact-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: solid white 1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-footer-container .footer-container .info-row-container .contact-info-col .contact-info-box .contact-link:hover {
+  color: #1ee41e;
+  border-bottom: solid #1ee41e 1px;
 }
 
 .main-copyright-container {
@@ -768,6 +763,7 @@ hr.feauturette-divider {
 
 .main-copyright-container .copyright-container {
   background-color: black;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
