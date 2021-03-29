@@ -155,7 +155,17 @@ function drinkSlider(image) {
         animation2;
         paragraph.textContent = 'Where we have delicious nutritious protien packed donuts!';
         animation1;
+    }  else if (image === '/css/pictures/wafflesticks.png') {
+        circleColor.style.backgroundColor = '#b77c7f';
+        lrnBtn.style.backgroundColor = '#b77c7f';
+        headerColor.style.color = '#b77c7f';
+        headerSpan.style.color = '#b77c7f';
+        paragraph.style.color ='#b77c7f'
+        animation2;
+        paragraph.textContent = 'Try our brand new protein Waffle sticks!';
+        animation1;
     }
+    
 }
 
 /* SWITCH STATEMENTS */

@@ -308,7 +308,7 @@
   position: relative;
   width: 100%;
   background: #c2b7a1;
-  height: 150px;
+  height: 190px;
   overflow-y: scroll;
   top: -20px;
   -webkit-transition: 0.5s;
@@ -721,6 +721,7 @@
   list-style-type: none;
   font-size: 15px;
   letter-spacing: 2px;
+  color: black;
 }
 
 .menu-main-container .menu-container .menu-row-1 .menu-col-4 {
@@ -876,8 +877,7 @@
   position: relative;
   width: 100%;
   background: #bb9e4f;
-  height: 150px;
-  overflow-y: scroll;
+  height: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -937,8 +937,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: white;
-  border: 8px solid whitesmoke;
+  background-color: #b77c7f;
+  border: 8px solid #b77c7f;
   height: 95%;
   width: 100%;
 }
@@ -953,17 +953,17 @@
   width: 50%;
 }
 
-.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .protein-stick-pic {
   position: absolute;
   background-color: none;
-  width: 350px;
+  width: 300px;
   margin-left: 100px;
-  height: 300px;
+  height: 250px;
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
-.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img:hover {
+.menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .protein-stick-pic:hover {
   -webkit-transform: translateY(-25px);
           transform: translateY(-25px);
 }
@@ -1023,7 +1023,7 @@
   left: 0;
   top: 0;
   color: black;
-  background: white;
+  background: #b77c7f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1070,9 +1070,8 @@
 .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-info-section .accordion .accordion-item .accordion-collapse .accordion-body5 {
   position: relative;
   width: 100%;
-  background: white;
-  height: 190px;
-  overflow-y: scroll;
+  background: #b77c7f;
+  height: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1187,6 +1186,25 @@
     height: 100%;
     width: 70%;
   }
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-4 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-2 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-3 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-2 .inner-drinks-col-4 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-2 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-3 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-3 .inner-drinks-col-4 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-2 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-3 .drink-section .protein-stick-pic,
+  .menu-main-container .menu-container .menu-row-1 .menu-col-4 .inner-drinks-col-4 .drink-section .protein-stick-pic {
+    height: 90%;
+    width: 70%;
+  }
   .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col .drink-info-section,
   .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-2 .drink-info-section,
   .menu-main-container .menu-container .menu-row-1 .menu-col-1 .inner-drinks-col-3 .drink-info-section,
@@ -1269,7 +1287,7 @@
     width: 100%;
     background-color: none;
   }
-  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .shakesmenu-img {
+  .menu-main-container .menu-container .menu-row-1 .menu-col-5 .inner-drinks-col-5 .drink-section .protein-stick-pic {
     width: 70%;
     margin-left: 0px;
     height: 100%;

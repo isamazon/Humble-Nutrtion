@@ -223,7 +223,7 @@ $accordion-border-width: 0px;
                     position: relative;
                     width: 100%;
                     background: #c2b7a1;
-                    height: 150px;
+                    height: 190px;
                     overflow-y: scroll;
                     top: -20px;
                     transition: 0.5s;
@@ -495,6 +495,7 @@ $accordion-border-width: 0px;
                         list-style-type: none;
                         font-size: 15px;
                         letter-spacing: 2px;
+                        color: black;
                       }
                     }
                   }
@@ -600,8 +601,7 @@ $accordion-border-width: 0px;
                     position: relative;
                     width: 100%;
                     background: #bb9e4f;
-                    height: 150px;
-                    overflow-y: scroll;
+                    height: 100%;
 
                     transition: 0.5s;
                     &:hover {
@@ -643,8 +643,8 @@ $accordion-border-width: 0px;
         .inner-drinks-col-5 {
           display: flex;
           flex-direction: row;
-          background-color: white;
-          border: 8px solid whitesmoke;
+          background-color: #b77c7f;
+          border: 8px solid #b77c7f;
           height: 95%;
           width: 100%;
           .drink-section {
@@ -653,12 +653,12 @@ $accordion-border-width: 0px;
             background-color: none;
             height: 100%;
             width: 50%;
-            .shakesmenu-img {
+            .protein-stick-pic {
               position: absolute;
               background-color: none;
-              width: 350px;
+              width: 300px;
               margin-left: 100px;
-              height: 300px;
+              height: 250px;
               transition: 1.5s;
               &:hover {
                 transform: translateY(-25px);
@@ -699,7 +699,7 @@ $accordion-border-width: 0px;
                   left: 0;
                   top: 0;
                   color: black;
-                  background: white;
+                  background: #b77c7f;
                   display: flex;
                   justify-content: center;
                   border: none;
@@ -728,13 +728,12 @@ $accordion-border-width: 0px;
                 .accordion-collapse {
                   position: relative;
                   top: 50px;
-                  
+
                   .accordion-body5 {
                     position: relative;
                     width: 100%;
-                    background: white;
-                    height: 190px;
-                    overflow-y: scroll;
+                    background: #b77c7f;
+                    height: 100%;
 
                     transition: 0.5s;
                     &:hover {
@@ -791,6 +790,10 @@ $accordion-border-width: 0px;
                 height: 100%;
                 width: 70%;
               }
+              .protein-stick-pic {
+                height: 90%;
+                width: 70%;
+              }
             }
             .drink-info-section {
               background-color: none;
@@ -820,7 +823,7 @@ $accordion-border-width: 0px;
               height: 50%;
               width: 100%;
               background-color: none;
-              .shakesmenu-img {
+              .protein-stick-pic {
                 width: 70%;
                 margin-left: 0px;
                 height: 100%;

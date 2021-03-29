@@ -29,18 +29,27 @@ body {
   @media screen and (max-width: 1000px) {
     top: 20%;
   }
+  @media screen and (max-width: 500px) {
+    top: 20%;
+    background-color: white;
+  }
   .second-row {
     height: 100%;
     background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     /*            ABOUT ME ROW                */
     .second-row-col-1 {
+      position: relative;
+      top: 0;
       display: flex;
       box-shadow: $boxshadow1;
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      background-color: NONE;
+      background-color: none;
       padding: 10px 0px;
       .about-me-section {
         display: flex;
@@ -56,12 +65,17 @@ body {
         }
       }
       .about-me-info {
+        position: relative;
         display: flex;
         justify-content: center;
         padding: 30px 10px;
         flex-direction: column;
-        background-color: NONE;
+        background-color: none;
+        height: 350px;
         .about-me-h1 {
+          position: relative;
+          align-self: center;
+          top: 25px;
           text-align: center;
           letter-spacing: 5px;
         }
@@ -82,7 +96,7 @@ body {
       padding: 10px 0px;
       .hours-section {
         position: relative;
-        top: -55px;
+
         display: flex;
         justify-content: center;
         .hours-img {
@@ -96,13 +110,16 @@ body {
       }
       .hours-info {
         position: relative;
-        top: -35px;
         display: flex;
         justify-content: center;
         padding: 10px 10px;
         flex-direction: column;
         background-color: none;
+        height: 350px;
         .hours-h1 {
+          position: absolute;
+          align-self: center;
+          top: 25px;
           padding-top: 5px;
           text-align: center;
           letter-spacing: 5px;
@@ -121,7 +138,7 @@ body {
     /*          MENU ROW              */
     .second-row-col-3 {
       position: relative;
-      top: -12px;
+
       display: flex;
       box-shadow: $boxshadow1;
       flex-direction: column;
@@ -142,12 +159,17 @@ body {
         }
       }
       .menu-info {
+        position: relative;
         display: flex;
         justify-content: center;
         padding: 30px 10px;
         flex-direction: column;
         background-color: none;
+        height: 350px;
         .menu-h1 {
+          position: absolute;
+          align-self: center;
+          top: 25px;
           text-align: center;
           letter-spacing: 5px;
         }
@@ -196,6 +218,7 @@ hr.feauturette-divider {
         background-size: none;
         background-repeat: none;
         background-position: center;
+        background-attachment: scroll;
         background-image: url(/css/pictures/staffpicmobile.jpg);
       }
       .local-owned-info-box {
@@ -206,8 +229,9 @@ hr.feauturette-divider {
         border-radius: 20px;
         position: absolute;
         left: 0;
+        z-index: 0;
         margin-left: 20px;
-        background-color: rgba(0, 0, 0, 0.211);
+        // background-color: rgba(0, 0, 0, 0.211);
         width: 50%;
         @media screen and (max-width: 930px) {
           width: 100%;
@@ -361,7 +385,9 @@ hr.feauturette-divider {
         .location-info-h1 {
           position: relative;
           top: 10%;
+          font-family: $themeFont;
           letter-spacing: 5px;
+          font-weight: 900;
           text-align: center;
         }
         .location-info-p {

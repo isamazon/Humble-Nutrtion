@@ -113,6 +113,12 @@
   letter-spacing: 5px;
 }
 
+@media screen and (max-width: 570px) {
+  .contact-main-container .contact-container .row-1 .contact-col-1 .contact-header h1 {
+    font-size: 22px;
+  }
+}
+
 .contact-main-container .contact-container .row-1 .contact-col-1 form {
   position: relative;
   top: 0%;
@@ -339,6 +345,14 @@
   position: relative;
   height: 50%;
   width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -ms-flex-item-align: end;
       align-self: flex-end;
   background: none;
@@ -353,6 +367,14 @@
   color: white;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+}
+
+@media screen and (max-width: 550px) {
+  .contact-main-container .contact-container .row-1 .contact-col-1 form .button-container .button-inner-container .submit-button {
+    letter-spacing: 0px;
+    font-size: 15px;
+    width: 30%;
+  }
 }
 
 .contact-main-container .contact-container .row-1 .contact-col-2 {
@@ -443,6 +465,14 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding-left: 40px;
+}
+
+@media screen and (max-width: 1050px) {
+  .contact-main-container .contact-container .row-1 .contact-col-2 .contact-email {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .contact-main-container .contact-container .row-1 .contact-col-2 .contact-phone {

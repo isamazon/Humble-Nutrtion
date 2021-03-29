@@ -73,6 +73,9 @@ $greencolor1: rgb(30, 228, 30);
             font-family: $themeFont;
             font-weight: 900;
             letter-spacing: 5px;
+            @media screen and (max-width: 570px) {
+              font-size: 22px;
+            }
           }
         }
 
@@ -250,6 +253,9 @@ $greencolor1: rgb(30, 228, 30);
                 position: relative;
                 height: 50%;
                 width: 20%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
                 align-self: flex-end;
                 background: none;
                 letter-spacing: 2px;
@@ -259,6 +265,11 @@ $greencolor1: rgb(30, 228, 30);
                   background: black;
                   color: white;
                   transform: translateY(-10px);
+                }
+                @media screen and (max-width: 550px) {
+                  letter-spacing: 0px;
+                  font-size: 15px;
+                  width: 30%;
                 }
               }
             }
@@ -322,6 +333,9 @@ $greencolor1: rgb(30, 228, 30);
             font-size: 20px;
             justify-content: flex-start;
             padding-left: 40px;
+          }
+          @media screen and (max-width: 1050px) {
+            justify-content: center;
           }
         }
         .contact-phone {

@@ -27,15 +27,33 @@ body {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .second-container {
+    top: 20%;
+    background-color: white;
+  }
+}
+
 .second-container .second-row {
   height: 100%;
   background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /*            ABOUT ME ROW                */
   /*            HOURS ROW           */
   /*          MENU ROW              */
 }
 
 .second-container .second-row .second-row-col-1 {
+  position: relative;
+  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +68,7 @@ body {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: NONE;
+  background-color: none;
   padding: 10px 0px;
 }
 
@@ -74,6 +92,7 @@ body {
 }
 
 .second-container .second-row .second-row-col-1 .about-me-info {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,10 +104,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: NONE;
+  background-color: none;
+  height: 350px;
 }
 
 .second-container .second-row .second-row-col-1 .about-me-info .about-me-h1 {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 25px;
   text-align: center;
   letter-spacing: 5px;
 }
@@ -119,7 +144,6 @@ body {
 
 .second-container .second-row .second-row-col-2 .hours-section {
   position: relative;
-  top: -55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,7 +163,6 @@ body {
 
 .second-container .second-row .second-row-col-2 .hours-info {
   position: relative;
-  top: -35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,9 +175,15 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: none;
+  height: 350px;
 }
 
 .second-container .second-row .second-row-col-2 .hours-info .hours-h1 {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 25px;
   padding-top: 5px;
   text-align: center;
   letter-spacing: 5px;
@@ -174,7 +203,6 @@ body {
 
 .second-container .second-row .second-row-col-3 {
   position: relative;
-  top: -12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,6 +240,7 @@ body {
 }
 
 .second-container .second-row .second-row-col-3 .menu-info {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,9 +253,15 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: none;
+  height: 350px;
 }
 
 .second-container .second-row .second-row-col-3 .menu-info .menu-h1 {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 25px;
   text-align: center;
   letter-spacing: 5px;
 }
@@ -293,6 +328,7 @@ hr.feauturette-divider {
     background-size: none;
     background-repeat: none;
     background-position: center;
+    background-attachment: scroll;
     background-image: url(/css/pictures/staffpicmobile.jpg);
   }
 }
@@ -312,8 +348,8 @@ hr.feauturette-divider {
   border-radius: 20px;
   position: absolute;
   left: 0;
+  z-index: 0;
   margin-left: 20px;
-  background-color: rgba(0, 0, 0, 0.211);
   width: 50%;
 }
 
@@ -540,7 +576,9 @@ hr.feauturette-divider {
 .third-container .third-row .third-row-col-1 .location-info-box .location-info-h1 {
   position: relative;
   top: 10%;
+  font-family: "Shadows Into Light", cursive;
   letter-spacing: 5px;
+  font-weight: 900;
   text-align: center;
 }
 

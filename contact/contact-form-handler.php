@@ -3,7 +3,8 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'isamazon0622@gmail.com';
+    $email_from = 'humblemail@humblenutritionnm.com
+    ';
 
     $email_subject = "New Form Submission";
 
