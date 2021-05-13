@@ -14,6 +14,12 @@ body {
 /*          Second container          */
 .second-container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   z-index: 10;
   padding-top: 50px;
@@ -37,6 +43,7 @@ body {
 .second-container .second-row {
   height: 100%;
   background: none;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,103 +53,28 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /*            ABOUT ME ROW                */
-  /*            HOURS ROW           */
-  /*          MENU ROW              */
 }
 
-.second-container .second-row .second-row-col-1 {
+.second-container .second-row .column-1 {
   position: relative;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0px 0px 0px black;
-          box-shadow: 0px 0px 0px black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: none;
-  padding: 10px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: none;
+  height: 600px;
 }
 
-.second-container .second-row .second-row-col-1 .about-me-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.second-container .second-row .second-row-col-1 .about-me-section .about-me-img {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-image: url(./pictures/ashley1.PNG);
-  background-position: center;
-  background-size: cover;
-}
-
-.second-container .second-row .second-row-col-1 .about-me-info {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: none;
-  height: 350px;
-}
-
-.second-container .second-row .second-row-col-1 .about-me-info .about-me-h1 {
-  position: relative;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  top: 25px;
-  text-align: center;
-  letter-spacing: 5px;
-}
-
-.second-container .second-row .second-row-col-1 .about-me-info .about-me-p {
-  text-align: center;
-  padding: 30px;
-}
-
-.second-container .second-row .second-row-col-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0px 0px 0px black;
-          box-shadow: 0px 0px 0px black;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: none;
-  padding: 10px 0px;
-}
-
-.second-container .second-row .second-row-col-2 .hours-section {
+.second-container .second-row .column-1 .hours-section {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,7 +84,7 @@ body {
           justify-content: center;
 }
 
-.second-container .second-row .second-row-col-2 .hours-section .hours-img {
+.second-container .second-row .column-1 .hours-section .hours-img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -161,76 +93,16 @@ body {
   background-size: cover;
 }
 
-.second-container .second-row .second-row-col-2 .hours-info {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 10px 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: none;
-  height: 350px;
+.second-container .second-row .column-1 .hours-section .aboutme-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(./pictures/ashley1.PNG);
+  background-position: center;
+  background-size: cover;
 }
 
-.second-container .second-row .second-row-col-2 .hours-info .hours-h1 {
-  position: absolute;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  top: 25px;
-  padding-top: 5px;
-  text-align: center;
-  letter-spacing: 5px;
-}
-
-.second-container .second-row .second-row-col-2 .hours-info .hours-p {
-  text-align: center;
-}
-
-.second-container .second-row .second-row-col-2 .hours-info .hours-p .curbside-span {
-  letter-spacing: 0px;
-}
-
-.second-container .second-row .second-row-col-2 .hours-info .hours-p .hours-days-span {
-  letter-spacing: 0px;
-}
-
-.second-container .second-row .second-row-col-3 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0px 0px 0px black;
-          box-shadow: 0px 0px 0px black;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: none;
-  padding: 10px 0px;
-}
-
-.second-container .second-row .second-row-col-3 .menu-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.second-container .second-row .second-row-col-3 .menu-section .menu-img {
+.second-container .second-row .column-1 .hours-section .menu-img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -239,51 +111,63 @@ body {
   background-size: cover;
 }
 
-.second-container .second-row .second-row-col-3 .menu-info {
+.second-container .second-row .column-1 .hours-info {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: none;
   height: 350px;
+  width: 100%;
+  background: none;
 }
 
-.second-container .second-row .second-row-col-3 .menu-info .menu-h1 {
-  position: absolute;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  top: 25px;
+.second-container .second-row .column-1 .hours-info .hours-h1 {
+  color: black;
+  position: relative;
+  top: 0;
+  background: none;
+}
+
+.second-container .second-row .column-1 .hours-info .hours-p {
+  height: 90%;
+  position: relative;
+  top: 10%;
   text-align: center;
-  letter-spacing: 5px;
 }
 
-.second-container .second-row .second-row-col-3 .menu-info .menu-p {
+.second-container .second-row .column-1 .hours-info .aboutme-p {
+  height: 90%;
+  position: relative;
+  top: 10%;
   text-align: center;
-  padding: 0px 30px;
 }
 
-.second-container .second-row .second-row-col-3 .menu-info .button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.second-container .second-row .column-1 .hours-info .menu-btn {
+  position: relative;
+  margin-top: 20px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  border: 2px solid black;
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.second-container .second-row .second-row-col-3 .menu-info .button-container .menu-button {
+.second-container .second-row .column-1 .hours-info .menu-btn:hover {
+  background: black;
   color: white;
-  cursor: pointer;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 hr.feauturette-divider {

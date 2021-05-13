@@ -6,13 +6,13 @@
     $email_from = 'humblemail@humblenutritionnm.com
     ';
 
-    $email_subject = "New Form Submission";
+    $email_subject = "New Form message";
 
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
 
-    $to = "isaiahmazon0622@gmail.com";
+    $to = "Ashbagosh77@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
