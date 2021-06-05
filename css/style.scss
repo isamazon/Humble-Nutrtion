@@ -42,6 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     .column-1 {
       position: relative;
       display: flex;
@@ -99,6 +100,12 @@ body {
           position: relative;
           top: 10%;
           text-align: center;
+          .curbside-span {
+            text-transform: uppercase;
+            font-size: 25px;
+            color: $greencolor1;
+            animation: bounce 5s infinite ease-in-out;
+          }
         }
         .aboutme-p {
           height: 90%;
@@ -510,6 +517,17 @@ hr.feauturette-divider {
   }
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
 /*          SCROLL BAR            */
 /* width */
 ::-webkit-scrollbar {
