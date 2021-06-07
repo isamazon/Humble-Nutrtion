@@ -410,6 +410,8 @@ hr.feauturette-divider {
   height: 10%;
   margin-top: 30px;
   background-color: none;
+  -webkit-animation: bounceing 2s infinite ease-in-out;
+          animation: bounceing 2s infinite ease-in-out;
 }
 
 .instagram-container .instagram-feed-row .instagram-text-col .instagram-icon-container .fa-instagram {
@@ -711,33 +713,33 @@ hr.feauturette-divider {
   color: green;
 }
 
-@-webkit-keyframes bounce {
+@-webkit-keyframes bounceing {
   0% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
   100% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 
-@keyframes bounce {
+@keyframes bounceing {
   0% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
   100% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 

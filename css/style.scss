@@ -202,6 +202,7 @@ hr.feauturette-divider {
   position: relative;
   background-color: none;
   height: 100%;
+
   .instagram-feed-row {
     height: 100%;
     background-color: none;
@@ -287,6 +288,7 @@ hr.feauturette-divider {
         height: 10%;
         margin-top: 30px;
         background-color: none;
+        animation: bounceing 2s infinite ease-in-out;
         .fa-instagram {
           color: black;
           padding: 20px;
@@ -517,15 +519,15 @@ hr.feauturette-divider {
   }
 }
 
-@keyframes bounce {
+@keyframes bounceing {
   0% {
-    transform: translateY(-5px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translateY(5px);
+    transform: translateY(-15px);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(0px);
   }
 }
 /*          SCROLL BAR            */
