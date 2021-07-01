@@ -1,119 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-$themeFont: 'Shadows Into Light', cursive;
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap');
-$themeFont2: 'Architects Daughter', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+$themeFont: "Shadows Into Light", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap");
+$themeFont2: "Architects Daughter", cursive;
+$greencolor1: rgb(30, 228, 30);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+header {
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  transition: 0.6s;
+  .brand {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 80px;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    span {
+      font-family: $themeFont;
+    }
   }
 
-  header{
-    background-color: white;
-    z-index: 999;
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      color: black;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      margin: 0 30px;
+      padding: 0 10px;
+      border-radius: 20px;
+      transition: 1.3s;
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+    .order-btn {
+      border: 2px solid black;
+      border-radius: 0px;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: 0.5s;
+      @media screen and (max-width: 1060px) {
+        border: 2px solid $greencolor1;
+      }
+      &:hover {
+        color: $greencolor1;
+        background: none;
+        border: 2px solid $greencolor1;
+        transform: translateY(0px);
+      }
+    }
+  }
+  .btn {
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    padding-left: 50px;
+    display: none;
+  }
+}
+header.sticky {
+  background: white;
+  box-shadow: 0px 0px 15px black;
+}
+
+@media (max-width: 1060px) {
+  header .btn {
+    display: block;
+  }
+
+  header .menu {
     position: fixed;
+    background: black;
+    flex-direction: column;
+    min-width: 300px;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    padding: 80px 50px;
+    transition: 0.5s;
+    transition-property: right;
+  }
+
+  header .menu.active {
+    right: 0;
+  }
+
+  header .menu .close-btn {
+    color: white;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
-    transition: 0.6s;
-    .brand {
-        color: black;
-        font-size: 20px;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding-left: 80px;
-        text-decoration: none;
-        letter-spacing: 2px;
-        
-        span {
-           font-family: $themeFont; 
-        }
-    }
-
-
-    .menu {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        a {
-            color: black;
-            font-size: 16px;
-            font-weight: 500;
-            text-decoration: none;
-            margin: 0 30px;
-            padding: 0 10px;
-            border-radius: 20px;
-            transition: 1.3s;
-            &:hover {
-              transform: translateY(-10px);
-            }
-        }
-    }
-    .btn {
-        color: black;
-        font-size: 35px;
-        cursor: pointer;
-        padding-left: 50px;
-        display: none;
-    }
-
-  }
-  header.sticky {
-    background: white;
-    box-shadow: 0px 0px 15px black;   
+    margin: 25px;
   }
 
-  @media (max-width: 1060px){
-    header .btn{
-      display: block;
-    }
-  
-    header .menu{
-      position: fixed;
-      background: black;
-      flex-direction: column;
-      min-width: 300px;
-      height: 100vh;
-      width: 100%;
-      top: 0;
-      right: -100%;
-      padding: 80px 50px;
-      transition: 0.5s;
-      transition-property: right;
-    }
-  
-    header .menu.active{
-      right: 0;
-    }
-  
-    header .menu .close-btn{
-      color: white;
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 25px;
-    }
-  
-    header .menu a{
-      color: white;
-      display: block;
-      font-size: 20px;
-      margin: 20px;
-      padding: 0 15px;
-    }
+  header .menu a {
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0 15px;
   }
-  
-  @media (max-width: 630px){
-    .section-main h1{
-      font-size: 60px;
-      line-height: 60px;
-    }
+}
+
+@media (max-width: 630px) {
+  .section-main h1 {
+    font-size: 60px;
+    line-height: 60px;
   }
+}
